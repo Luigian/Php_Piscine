@@ -1,0 +1,265 @@
+*
+{
+	width: 100%;
+	margin: auto;
+}
+
+body
+{
+	background-color: #505050;
+}
+
+p
+{
+	font-size: 0.75vw;
+	font-family: verdana;
+	margin: 0;
+}
+
+.gray
+{
+	border-radius: 8px;
+	background-color: #909090;
+	box-shadow: 8px 8px 5px black;
+}
+
+.topblock
+{
+	width: 72%;
+	height: auto;
+	margin: auto;
+	margin-top: 1%;
+	padding: 1%;
+	position: relative;
+	z-index: 1;
+}
+
+			#dayofthe42
+			{
+				width: 35%;
+				display: inline-block;
+			}
+
+			#topright
+			{
+				width: 3%;
+				height: auto;
+				display: inline-block;
+				float: right;
+			}
+
+			#reload
+			{
+				width: 60%;
+				display: block;
+				margin-left: 35%;
+			}
+
+			#close
+			{
+				width: 60%;
+				display: block;
+				margin-top: 210%;
+				margin-left: 35%;
+			}
+
+			#loupe
+			{
+				width: 22%;
+				margin-left: 39%;
+				position: absolute;
+				z-index: 2;
+			}
+
+.middle
+{
+	width: 70%;
+	height: 50%;
+	display: inline-block;
+	margin-left: 15%;
+	margin-top: 2%;
+}
+
+	.leftblock
+	{
+		width: 8%;
+		height: auto;
+		padding: 1%;
+		float: left;
+		padding-bottom: 2%;
+	}
+
+			#triangle
+			{
+				width: 60%;
+				display: block;
+				margin: auto;
+				margin-top: 10%;
+			}
+
+			#hand
+			{
+				width: 60%;
+				display: block;
+				margin: auto;
+				margin-top: 10%;
+			}
+
+			#eye
+			{
+				width: 60%;
+				display: block;
+				margin: auto;
+				margin-top: 10%;
+				border: 3px solid red;
+			}
+
+			#tools
+			{
+				width: 60%;
+				display: block;
+				margin: auto;
+				margin-top: 10%;
+			}
+
+			#globes
+			{
+				width: 60%;
+				display: block;
+				margin: auto;
+				margin-top: 10%;
+			}
+
+	.midblock
+	{
+		width: 72%;
+		height: auto;
+		padding: 1%;
+		float: left;
+		margin-left: 3%;
+		z-index: 1;
+	}
+
+			#image
+			{
+				width: 100%;
+				height: 100%;
+				display: block;
+				margin: auto;
+				z-index: 2;
+			}
+
+			#ikea
+			{
+				width: 10%;
+				height: 43px;
+				float: right;
+				margin-top: -22%;
+				margin-right: 57%;
+				position: relative;
+			}
+
+			#apple
+			{
+				width: 20%;
+				height: 43px;
+				float: right;
+				margin-top: -22%;
+				margin-right: 0%;
+				position: relative;
+			}
+
+	.rightblock
+	{
+		width: 8%;
+		height: auto;
+		padding: 1%;
+		float: right;
+		margin-left: 1%;
+		padding-bottom: 13%;
+	}
+
+			#book
+			{
+				width: 60%;
+				display: block;
+				margin: auto;
+				margin-top: 10%;
+			}
+
+			#towel
+			{
+				width: 60%;
+				display: block;
+				margin: auto;
+				margin-top: 10%;
+			}
+
+			.brick
+			{
+				width: 30%;
+				display: block;
+				visibility: hidden;
+			}
+
+			#bricks
+			{
+				display: block;
+				background: url("resources/brick.jpg");
+				background-repeat: repeat;
+				background-size: 27%;
+			}
+
+	.greenblock
+	{
+		width: 36%;
+		height: auto%;
+		display: inline-block;
+		padding: 1%;
+		padding-bottom: 5%;
+		margin-top: -6%;
+		margin-left: -6%;
+		border-radius: 8px;
+		background-color: #98FB98;
+		box-shadow: 8px 8px 5px black;
+		z-index: 4;
+	}
+
+			#big
+			{
+				font-size: 2vw;
+				font-family: Georgia;
+			}
+
+			#redshadow
+			{
+				text-shadow: 3px 4px 2.5px red;
+			}
+
+			#bonjour
+			{
+				font-style: italic;
+			}
+
+			#format
+			{
+				width: 74%;
+				height: 10%;
+				display: inline-block;
+				vertical-align: center;
+				margin-top: 1%;
+				box-shadow: inset 0px 0px 0px;
+				font-size: 0.8vw;
+			}
+
+			#button
+			{
+				width: 16%;
+				height: 15%;
+				display: inline-block;
+				vertical-align: center;
+				background-color: #e0dfe0;
+				border: 1px #b0b2b3 solid;
+				box-shadow: inset 0px 5px 5px white;
+				font-size: 0.6vw;
+			}

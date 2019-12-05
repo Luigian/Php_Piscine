@@ -1,0 +1,113 @@
+.master
+{
+	width: 100%;
+	margin: 10%;
+}
+
+.tit
+{
+	text-align: center;
+	font-size : 2.5vw;
+	font-weight : bold;
+	margin-top: 4%;
+}
+
+.table
+{
+	width: 80%;
+	height: auto;
+	margin-top: -5%;
+}
+
+#footer
+{
+	width: 80%;
+	height: auto;
+	margin-top: 2%;
+}
+
+#orange
+{
+	width: 5%;
+	height: auto;
+	background-color: orange;
+}
+#blue
+{
+	width: 5%;
+	height: auto;
+	background-color: #33ccff;
+}
+#blue2
+{
+	width: 5%;
+	height: auto;
+	background-color: dodgerblue;
+}
+#yellow
+{
+	width: 5%;
+	height: auto;
+	background-color: yellow;
+}
+#tomato
+{
+	width: 5%;
+	height: auto;
+	background-color: tomato;
+}
+#green
+{
+	width: 5%;
+	height: auto;
+	background-color: lime;
+}
+#green2
+{
+	width: 5%;
+	height: auto;
+	background-color: limegreen;
+}
+#green3
+{
+	width: 5%;
+	height: auto;
+	background-color: aquamarine;
+}
+#green4
+{
+	width: 5%;
+	height: auto;
+	background-color: cadetblue;
+}
+#purple
+{
+	width: 5%;
+	height: auto;
+	background-color: mediumpurple;
+}
+#white
+{
+	width: 5%;
+	height: auto;
+	background-color: white;
+}
+
+#mass
+{
+	font-size : 0.5vw;
+	text-align: right;
+}
+#letter
+{
+	font-weight : bold;
+	font-size : 1.5vw;
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+#num
+{
+	font-size : 0.5vw;
+	text-align: left;
+}
