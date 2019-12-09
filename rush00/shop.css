@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#prodlist {
+    width: 65%;
+    height: 130vw;
+    float: left;
+}
+section#singprod {
+    margin-left: 2vw;
+    width: 95%;
+    height: 26vw;
+    border-style: dashed;
+    border-width: 0.1vw;
+    border-color: rgba(128, 5, 85, 0.829);
+    border-radius: 1vw;
+    padding: 2vw;
+    margin-top: 2vw;
+}
+
+#topay {
+    width: 30%;
+    height: 130vw;
+    float: left;
+    margin-top: 2vw;
+
+}
+
+p {
+    color: white;
+    font-family: monospace;
+    font-size: 1vw;
+}
+
+#subtotal {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    border-style: dashed;
+    border-width: 0.1vw;
+    border-color: rgba(128, 5, 85, 0.829);
+    border-radius: 1vw;
+    margin-top: 2vw;
+    padding: 0;
+    float: left;
+}
+
+div#prodname {
+    width: 70%;
+    justify-content: center;
+    font-family: 'Verdana';
+    color: rgb(235, 161, 64);
+    margin-left: 3vw;
+    margin-bottom: 1vw;
+    font-size: 1.5vw;
+}
+
+div#img {
+    position: relative;
+    float: left;
+    width: 15%;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+img {
+    width: 100%;
+}
+
+div#proddesc {
+    width: 60%;
+    height: 50%;
+    float: left;
+    justify-content: center;
+    font-family: 'cochin';
+    font-size: 1.6vw;
+    color: black;
+}
+
+div#prodpric {
+    color: rgb(186, 106, 163);
+    width: 12%;
+    height: 15%;
+    float: left;
+    justify-content: center;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.6vw;
+    margin-left: 1vw;
+}
+
+#butadd {
+    font-size: 1.2vw;
+    justify-content: center;
+    font-family: 'Verdana';
+    padding: 0.3vw;
+    border-radius: 0.3vw;
+    margin-top: 1vw;
+}
