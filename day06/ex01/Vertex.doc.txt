@@ -1,0 +1,19 @@
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handles vertex.
+
+An instance can be constructed from distinct x, y, z constitutives:
+new Vertex( array( 'x' => 1.0, 'y' => 0.0, 'z' => '0.0' ) );
+
+The following constitutives are optional:
+- w (1.0 default)
+- instance of Color class
+
+x, y, z, constitutives are converted to intergers.
+
+The attributes are private.
+You can access them with accessors get and set:
+getX();
+setX($value);
+
+The class not provides any method.
+---------------------------------------------------------------------- Vertex ->

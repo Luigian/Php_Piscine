@@ -1,0 +1,26 @@
+<- Matrix ----------------------------------------------------------------------
+The Matrix class handles 4x4 matrixes.
+
+The class contains seven constants: 
+
+IDENTITY: gives identity to a matrix.
+SCALE: gives the scale to a matrix.
+RX: rotate a matrix in the x axis.
+RY: rotate a matrix in the y axis.
+RZ: rotate a matrix in the y axis.
+TRANSLATION: move or translate a matrix.
+PROJECTION: change the type of projection to a matrix.  
+
+Once a matrix is instantiated, its status is final. No setters.
+
+The attributes are private. You can access them with the accessor get:
+getX();
+
+The class provides the following methods to multiply two matrices and 
+multiply a matrix and a vertex:
+
+- mult() : returns the multiplication of both matrices.
+
+- transformVertex() : returns a new vertex resulting from
+the transformation of the vertex by the matrix.
+---------------------------------------------------------------------- Matrix ->

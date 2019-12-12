@@ -1,0 +1,37 @@
+<- Vector ----------------------------------------------------------------------
+The Vector class handles 3D vectors.
+
+An instance can be constructed from two distinct vertex, each one with 
+x, y, z, w.
+new Vector( array( "dest" => instance, "orig" => instance) );
+
+"dest": the vector’s destination vertex, mandatory.
+"orig": the vector’s origin vertex, optional, by default is worth a new
+ instance of the x=0, y=0, z=0, w=1 vertex.
+
+Once a vector is instantiated, its status is final. No setters.
+
+The attributes are private. You can access them with the accessor get:
+getX();
+
+The class provides the following methods:
+
+- magnitude() : returns the length (norme) of the instanced Vector.
+
+- normalize() : returns a normalized version of the Vector. If the vector is
+already normalized, returns a fresh copy of the vector.
+
+- add( Vector $v ) : returns the sum vector of both vectors.
+
+- sub( Vector $v ) : returns the difference vector of both vectors.
+
+- opposite() : returns the opposite vector.
+
+- scalarProduct( $k ) : returns the multiplication of the vector with a scalar.
+
+- dotProduct( Vector $v ) : returns the angle’sAppendix cosine between 
+both vectors.
+
+- crossProduct( Vector $rhs ) : returns the cross multiplication of 
+both vectors (right-hand mark).
+---------------------------------------------------------------------- Vector ->
