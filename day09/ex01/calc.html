@@ -1,0 +1,101 @@
+<html>
+<head>
+	<title>Calculator</title>
+	<style>
+		body
+		{
+			font-family: Verdana;
+		}
+		#block
+		{
+			width: 300px;
+			background-color: lightgrey;
+			margin: 10% auto;
+			padding: 75px 50px 50px 50px;
+			box-shadow: 0 10px 20px grey;
+			position: relative;
+        }	
+		input, select
+		{
+			font-size: 12px;
+			margin-bottom: 15px;
+			border-radius: 5px;
+			text-align: center;
+			width: 300px;
+			height: 30px;
+			border: white;
+		}
+		select
+		{
+			text-indent: 138px;
+		}
+	</style>
+</head>
+<body>
+	
+	<div id="block">
+		<form action="">
+			<input type="text" name="left">
+			<select name="oper">
+				<option value="add">+</option>
+				<option value="min">-</option>
+				<option value="mul">*</option>
+				<option value="div">/</option>
+				<option value="mod">%</option>
+			</select>	
+			<input type="text" name="right" value="">
+			<input type="submit" value="Try me!">
+		</form>
+	</div>
+
+	<script>
+		var f = document.querySelector('form')
+		f.addEventListener('submit', ft_f);
+		setInterval("alert('Please, use me...')", 30000)
+		
+		function ft_result(text)
+		{
+			console.log(text);
+			alert(text);
+		}
+	
+		function ft_f(event)
+		{
+			event.preventDefault();
+			var l = this.querySelector('input[name="left"]').value;
+			var op = this.querySelector('select[name="oper"]').value;
+			var r = this.querySelector('input[name="right"]').value;
+
+			if (parseInt(l) != l || parseInt(r) != r)
+				return ft_result('Error :(');
+			l = parseInt(l);
+			r = parseInt(r);
+			if (l < 0 || r < 0)
+				return ft_result('Error :(');
+			if (['add', 'min', 'mul', 'div', 'mod'].indexOf(op) === -1)
+				return ft_result('Error :(');
+			if ((op === 'div' || op === 'mod') && r === 0)
+				return ft_result('It’s over 9000!');
+		
+			switch (op)
+			{
+				case 'add':
+					ft_result((l + r).toString());
+					break;
+				case 'min':
+					ft_result((l - r).toString());
+					break;
+				case 'mul':
+					ft_result((l * r).toString());
+					break;
+				case 'div':
+					ft_result((l / r).toString());
+					break;
+				case 'mod':
+					ft_result((l % r).toString());
+					break;
+			}
+		}
+	</script>
+</body>
+</html>
