@@ -1,0 +1,63 @@
+<html>
+<head>
+	<title>Balloon</title>
+	<style>
+		#balloon
+		{
+			width: 200px;
+			height: 200px;
+			background-color:red;
+			border-radius: 50%;
+		}
+	</style>
+</head>
+<body>
+	<div id="balloon">
+	</div>
+	<script>
+	
+		var b = document.getElementById('balloon');
+		balloon.addEventListener("click", ft_click);
+		balloon.addEventListener("mouseleave", ft_mouse);
+		var size = 200;
+		var c = 0;
+		
+		function ft_click()
+		{
+			size += 10;
+			if (size > 420)
+				size = 200;
+			b.style.width = size + "px";
+			b.style.height = size + "px";
+			if (c == 0 )
+				b.style.backgroundColor = "green";
+			if (c == 1)
+				b.style.backgroundColor = "blue";
+			if (c == 2)
+				b.style.backgroundColor = "red";
+			c++;
+			if (c == 3)
+				c = 0;
+		} 
+		
+		function ft_mouse()
+		{
+			size -= 5;
+			if (size < 200)
+				size = 200;
+			b.style.width = size + "px";
+			b.style.height = size + "px";
+			if (c == 0 )
+				b.style.backgroundColor = "blue";
+			if (c == 1)
+				b.style.backgroundColor = "green";
+			if (c == 2)
+				b.style.backgroundColor = "red";
+			c++;
+			if (c == 3)
+				c = 0;
+		}
+
+	</script>
+</body>
+</html>
