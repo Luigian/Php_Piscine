@@ -38,7 +38,6 @@ function getCookie(cname)
 	for(var i = 0; i < ca.length; i++)
 	{
 		var nam = ca[i].split('=');
-		var new_div = document.createElement("div");
 		ft_putask(nam[0])
 	}
 }
