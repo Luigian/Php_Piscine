@@ -34,6 +34,8 @@ A funny mystery story led us through various exercises to discover a little bit 
 After installing our web server with the 42 PAMP tool (or localhost) we wrote php codes capable of recovering users and passwords, saving and deleting cookies, displaying images in the browser window and validating member access to fictional web pages.
 
 ### Day 04 - PHP - MAMP
+In this day we create different pages to manage a user session. The exercises were about creating an account, login (authorization via a self-build function), changing the password and be able to save in a file certain data to create a basic multi-user chat page.
+
 ### Day 05 - SQL
 ### Day 06 - PHP - OOP
 ### Day 07 - PHP - OOP
