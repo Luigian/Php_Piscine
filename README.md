@@ -21,22 +21,20 @@
 ## Functions Hierarchy
 <img src="resources/images/pf_funhierarchy.png" width="1000">
 
-## Summary of Contents
+## Summary of the Piscine
 
-|Day|Language|Description|
-|---------|-----|-----------|
-|Day 00|HTML - CSS|Decimal digit string followed by a $, specifying the next argument to access.|
-|Day 01|PHP|Known as the 'alternate form', may add '0' for o, '0x' for x and '0X' for X. For f always print the decimal point.|
-|Day 02|PHP|The value is padded on the left with zeros rather than blanks when the 'width' option is specified.|
-|Day 03|PHP|The converted value is to be left adjusted on the field boundary.|
-|Day 04|PHP|A blank should be left before a positive number produced by a signed conversion.|
-|Rush 00|HTML, CSS, PHP|Specifies the size of the argument as 'signed char' or 'unsigned char'.|
-|Day 05|SQL|A sign must always be placed before a number produced by a signed conversion.|
-|Day 06|PHP|Decimal and floating point conversion should be grouped and separated by thousands.|
-|Day 07|PHP| Decimal digit string specifying a minimum field width.|
-|Day 08|PHP|A period '.' followed by a digit string gives the minimum number of digits to appear for d, i, o, u, x, and X conversions, the number of digits to appear after the decimal point for f, or the maximum number of characters to be printed from a string for s conversions.|
-|Day 09|JavaScript|A field width or precision, or both, may be indicated by an asterisk or an asterisk followed by one or more decimal digits and a $ instead of a digit string. In this case, an int argument supplies the field width or precision.|
-|Rush 01|HTML, CSS, PHP, JS|Specifies the size of the argument as 'short' or 'unsigned short'.|
+### Day 00 - HTML and CSS
+### Day 01 - PHP
+### Day 02 - PHP
+### Day 03 - PHP - MAMP
+### Day 04 - PHP - MAMP
+### Day 05 - SQL
+### Day 06 - PHP - OOP
+### Day 07 - PHP - OOP
+### Day 08 - Awesome Starships Battles I
+### Day 09 - JavaScript and JQuery
+### Rush 00 - E-commerce
+### Rush 01 - Awesome Starships Battles II
 
 ## Process Logbook
 
