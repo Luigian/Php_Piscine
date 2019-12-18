@@ -59,10 +59,12 @@ This day we learned about how to implement object-oriented programming (OOP) in 
 ### Day 07
 PHP - OOP
 
-A day dedicated to Game of Thrones, allowed us to better understand the logic of object-oriented programming, particularly inheritance (parent and child classes), abstract classes and methods, traits and interfaces, in a really fun way.
+A day dedicated to Game of Thrones, allowed us to better understand the logic of object-oriented programming, particularly inheritance (parent and child classes), abstract classes, abstract methods and interfaces, in a really fun way.
 
 ### Day 08
 Awesome Starships Battles I
+
+This day we covered the utilisation of traits (inheritance but in an horizontal point of view), final classes, exceptions (handling errors), reflection classes and reflection objects (recover and manipulate the data inside). The exercise goal was to create a game called "Awesome Starships Battles", a 2 players game which goal is to control a fleet of spaceships and eliminate the adversary fleet first. The composition of this game was very convenient to put togheter in practice PHP-OOP, HTML and CSS.
 
 ### Day 09
 JavaScript and JQuery
