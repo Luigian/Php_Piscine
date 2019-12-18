@@ -1,6 +1,6 @@
 <img src="../../resources/images/mendeleiev.png" width="1200">
 
-# EX 00 - Day 00 - Piscine_Php
+# EX 01 - Day 00 - Piscine_Php
 
 ## Installation
 `open day00/ex01/mendeleiev.html` | Open the page in the web browser.
