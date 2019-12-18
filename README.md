@@ -1,6 +1,6 @@
 <img src="resources/images/php_banner.png" width="1200">
 
-# Piscine_Php - 42 School Two Weeks Boot Camp 
+# Piscine_Php - 42 School Two-Weeks Web Boot Camp 
 
 ## Highlights
 
