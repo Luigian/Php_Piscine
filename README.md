@@ -1,6 +1,6 @@
 <img src="resources/images/php_banner.png" width="1200">
 
-# Piscine_Php - 42 School Two-Weeks Web Boot Camp 
+# Piscine_Php - 42 School 2-Weeks Web Boot-Camp 
 
 ## Highlights
 
@@ -27,28 +27,48 @@
 HTML and CSS
 
 This day was about learning how to create elements in HTML and give style with CSS to fictional web pages with re-directional links, tables, images, shrink responsiveness and drop down menus.    
-### Day 01 - PHP
+### Day 01
+PHP
+
 From writing the classic "hello world", in this day we started to getting familiar with the PHP syntax by coding some programs to manipulate integers and strings. 
-### Day 02 - PHP
+### Day 02
+PHP
+
 A funny mystery story led us through various exercises to discover a little bit more about php's libraries and helpfull functions to access local and external data.
 
-### Day 03 - PHP - MAMP
+### Day 03
+PHP - MAMP
+
 After installing our web server with the 42 PAMP tool (or localhost) we wrote php codes capable of recovering users and passwords, saving and deleting cookies, displaying images in the browser window and validating member access to fictional web pages.
 
-### Day 04 - PHP - MAMP
+### Day 04
+PHP - MAMP
+
 In this day we created different pages to manage a user session. The exercises were about creating an account, login (authorization via a self-build function), changing the password and be able to save in a file certain data to create a basic multi-user chat page.
 
-### Day 05 - SQL
+### Day 05
+SQL
 
+### Day 06
+PHP - OOP
 
-### Day 06 - PHP - OOP
-### Day 07 - PHP - OOP
-### Day 08 - Awesome Starships Battles I
-### Day 09 - JavaScript and JQuery
-### Rush 00 - E-commerce
+### Day 07
+PHP - OOP
+
+### Day 08
+Awesome Starships Battles I
+
+### Day 09
+JavaScript and JQuery
+
+### Rush 00
+E-commerce
+
 After the first week of the piscine, we had to -in a weekend– create a mini e-commerce online shop. This should cover products and users management with a well organized data base. Our e-commerce should allow a user to register, connect, add articles in his basket and validate his order. Once validated, the order must be visible from an administration section.
 
-### Rush 01 - Awesome Starships Battles II
+### Rush 01
+Awesome Starships Battles II
+
 
 ## Process Logbook
 
