@@ -7,12 +7,11 @@
 This day was about learning how to create elements in HTML and give style with CSS to fictional web pages with re-directional links, tables, images, shrink responsiveness and drop down menus.    
 
 ## Installation
-`make && make clean` | Compiles and creates the library `libftprintf.a`.
-
-`make re && make clean` | Recompiles.
+`open day00/ex00/basics.html` | Open the web page in the web browser.
 
 ## Usage
-`gcc resources/test_main.c libftprintf.a && ./a.out` | Prints the test main provided as example. 
+`click on "Chanel" link` | Redirects to Chanel official web page. 
+`click on "Louis Vutton" link` | Redirects to Louis Vutton official web page. 
 
 ## Input & Output
 <img src="resources/images/pf_input.png" width="300">
