@@ -1,4 +1,4 @@
-<img src="../../resources/images/respon.png" width="300"><img src="../../resources/images/responsive_2.png" width="550">
+<img src="../../resources/images/respon.png" width="300">
 
 # EX 03 - Day 00 - Piscine_Php
 
