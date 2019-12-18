@@ -23,7 +23,9 @@
 
 ## Summary of the Piscine
 
-### Day 00 - HTML and CSS
+### Day 00
+HTML and CSS
+
 This day was about learning how to create elements in HTML and give style with CSS to fictional web pages with re-directional links, tables, images, shrink responsiveness and drop down menus.    
 ### Day 01 - PHP
 From writing the classic "hello world", in this day we started to getting familiar with the PHP syntax by coding some programs to manipulate integers and strings. 
