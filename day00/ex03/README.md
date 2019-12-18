@@ -6,6 +6,6 @@
 `open day00/ex03/responsive.html` | Open the page in the web browser.
 
 ## Usage
-`click on "Chanel" link` | Redirects to Chanel official web page.
+`Resize the browser window` | The table respond adjusting it size.
 
-`click on "Louis Vuitton" link` | Redirects to Louis Vuitton official web page.
+`Observe the table` | Enjoy the Mendeleiev Periodic Table.
