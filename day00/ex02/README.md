@@ -1,3 +1,4 @@
+## Preview
 <img src="../../resources/images/doft.png" width="1200">
 
 # EX 02 - Day 00 - Piscine_Php
