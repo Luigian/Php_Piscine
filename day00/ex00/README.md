@@ -12,8 +12,4 @@ This day was about learning how to create elements in HTML and give style with C
 ## Usage
 `click on "Chanel" link` | Redirects to Chanel official web page.
 
-`click on "Louis Vuitton" link` | Redirects to Louis Vuitton official web page. 
-
-## Input & Output
-<img src="resources/images/pf_input.png" width="300">
-<img src="resources/images/pf_output.png" width="300">
+`click on "Louis Vuitton" link` | Redirects to Louis Vuitton official web page.
