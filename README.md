@@ -58,7 +58,9 @@ This day we learned about how to implement object-oriented programming (OOP) in 
 
 ### Day 07
 PHP - OOP
-inheritance, traits, and other interfaces
+
+A day dedicated to Game of Thrones, allowed us to better understand the logic of object-oriented programming, particularly inheritance (parent and child classes), abstract classes and methods, traits and interfaces, in a really fun way.
+
 ### Day 08
 Awesome Starships Battles I
 
