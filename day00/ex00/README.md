@@ -10,7 +10,8 @@ This day was about learning how to create elements in HTML and give style with C
 `open day00/ex00/basics.html` | Open the web page in the web browser.
 
 ## Usage
-`click on "Chanel" link` | Redirects to Chanel official web page. 
+`click on "Chanel" link` | Redirects to Chanel official web page.
+
 `click on "Louis Vutton" link` | Redirects to Louis Vutton official web page. 
 
 ## Input & Output
