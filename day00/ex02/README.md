@@ -1,11 +1,15 @@
-<img src="../../resources/images/basics.png" width="1200">
+<img src="../../resources/images/doft.png" width="1200">
 
-# EX 00 - Day 00 - Piscine_Php
+# EX 02 - Day 00 - Piscine_Php
 
 ## Installation
-`open day00/ex00/basics.html` | Open the page in the web browser.
+`open day00/ex02/doft.html` | Open the page in the web browser.
 
 ## Usage
-`click on "Chanel" link` | Redirects to Chanel official web page.
+`click on the reload icon` | Redirects to Disney official web page.
 
-`click on "Louis Vuitton" link` | Redirects to Louis Vuitton official web page.
+`click on the close icon` | Redirects to Relais Chateaux official web page.
+
+`click on the middle chair at the center of the main picture` | Redirects to Ikea official web page.
+
+`click on the back of the computer at the right side of the main picture` | Redirects to Apple official web page.
