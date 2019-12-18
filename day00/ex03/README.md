@@ -1,6 +1,7 @@
-<img src="../../resources/images/respon.png" width="1000">
-
 # EX 03 - Day 00 - Piscine_Php
+
+## Preview
+<img src="../../resources/images/respon.png" width="1000">
 
 ## Installation
 `open day00/ex03/responsive.html` | Open the page in the web browser.
