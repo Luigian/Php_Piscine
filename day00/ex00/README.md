@@ -1,4 +1,4 @@
-<img src="resources/images/php_banner.png" width="1200">
+<img src="../../resources/images/basics.png" width="1200">
 
 # Day 00 - Piscine_Php
 
