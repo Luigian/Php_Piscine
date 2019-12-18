@@ -1,11 +1,11 @@
-<img src="../../resources/images/basics.png" width="1200">
+<img src="../../resources/images/menu.png" width="1200">
 
 # EX 00 - Day 00 - Piscine_Php
 
 ## Installation
-`open day00/ex00/basics.html` | Open the page in the web browser.
+`open day00/ex04/menu.html` | Open the page in the web browser.
 
 ## Usage
-`click on "Chanel" link` | Redirects to Chanel official web page.
+`put the mouse cursor over "Menu"` | The drop down menu will display.
 
-`click on "Louis Vuitton" link` | Redirects to Louis Vuitton official web page.
+`click on any element at the drop down menu` | Redirects to the official corresponding SNCF web page.
