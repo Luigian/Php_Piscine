@@ -1,6 +1,7 @@
-<img src="../../resources/images/doft.png" width="1200">
-
 # EX 02 - Day 00 - Piscine_Php
+
+## Preview
+<img src="../../resources/images/doft.png" width="1200">
 
 ## Installation
 `open day00/ex02/doft.html` | Open the page in the web browser.
