@@ -79,6 +79,7 @@ After the first week of the piscine, we had to -in a weekend– create a mini e-
 ### Rush 01
 Awesome Starships Battles II
 
+This is an ambitious project that aims to gather all the tools learned during this boot-camp. This second rush was about remasterizing the game created at day 08, and adding account management, users ranking, chat panel, simultaneously games, scripted games and other cool features alike. 
 
 ## Process Logbook
 
