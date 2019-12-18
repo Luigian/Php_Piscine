@@ -31,6 +31,8 @@ From writing the classic "hello world", in this day we started to getting famili
 A funny mystery story led us through various exercises to discover a little bit more about php's libraries and helpfull functions to access local and external data.
 
 ### Day 03 - PHP - MAMP
+After installing our web server with the 42 PAMP tool (or localhost) we wrote php codes capable of recovering users and passwords, saving and deleting cookies, displaying images in the browser window and validating member access to fictional web pages.
+
 ### Day 04 - PHP - MAMP
 ### Day 05 - SQL
 ### Day 06 - PHP - OOP
