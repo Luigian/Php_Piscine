@@ -1,6 +1,6 @@
 <img src="../../resources/images/basics.png" width="1200">
 
-# Day 00 - Piscine_Php
+# EX 00 - Day 00 - Piscine_Php
 
 ### HTML and CSS
 
