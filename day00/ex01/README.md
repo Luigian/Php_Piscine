@@ -1,11 +1,9 @@
-<img src="../../resources/images/basics.png" width="1200">
+<img src="../../resources/images/mendeleiev.png" width="1200">
 
 # EX 00 - Day 00 - Piscine_Php
 
 ## Installation
-`open day00/ex00/basics.html` | Open the page in the web browser.
+`open day00/ex01/mendeleiev.html` | Open the page in the web browser.
 
 ## Usage
-`click on "Chanel" link` | Redirects to Chanel official web page.
-
-`click on "Louis Vuitton" link` | Redirects to Louis Vuitton official web page.
+`Observe the table` | Enjoy the Mendeleiev Periodic Table.
