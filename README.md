@@ -34,14 +34,18 @@ A funny mystery story led us through various exercises to discover a little bit 
 After installing our web server with the 42 PAMP tool (or localhost) we wrote php codes capable of recovering users and passwords, saving and deleting cookies, displaying images in the browser window and validating member access to fictional web pages.
 
 ### Day 04 - PHP - MAMP
-In this day we create different pages to manage a user session. The exercises were about creating an account, login (authorization via a self-build function), changing the password and be able to save in a file certain data to create a basic multi-user chat page.
+In this day we created different pages to manage a user session. The exercises were about creating an account, login (authorization via a self-build function), changing the password and be able to save in a file certain data to create a basic multi-user chat page.
 
 ### Day 05 - SQL
+
+
 ### Day 06 - PHP - OOP
 ### Day 07 - PHP - OOP
 ### Day 08 - Awesome Starships Battles I
 ### Day 09 - JavaScript and JQuery
 ### Rush 00 - E-commerce
+After the first week of the piscine, we had to -in a weekend– create a mini e-commerce online shop. This should cover products and users management with a well organized data base. Our e-commerce should allow a user to register, connect, add articles in his basket and validate his order. Once validated, the order must be visible from an administration section.
+
 ### Rush 01 - Awesome Starships Battles II
 
 ## Process Logbook
