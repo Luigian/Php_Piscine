@@ -7,7 +7,7 @@
 This day was about learning how to create elements in HTML and give style with CSS to fictional web pages with re-directional links, tables, images, shrink responsiveness and drop down menus.    
 
 ## Installation
-`open day00/ex00/basics.html` | Open the web page in the web browser.
+`open day00/ex00/basics.html` | Open the page in the web browser.
 
 ## Usage
 `click on "Chanel" link` | Redirects to Chanel official web page.
