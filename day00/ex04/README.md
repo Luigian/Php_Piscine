@@ -1,6 +1,6 @@
 <img src="../../resources/images/menu.png" width="1200">
 
-# EX 00 - Day 00 - Piscine_Php
+# EX 04 - Day 00 - Piscine_Php
 
 ## Installation
 `open day00/ex04/menu.html` | Open the page in the web browser.
