@@ -1,5 +1,5 @@
 <img src="../../resources/images/responsive_1.png" width="300">
-<img src="../../resources/images/responsive_2.png" width="600">
+<img src="../../resources/images/responsive_2.png" width="500">
 
 # EX 03 - Day 00 - Piscine_Php
 
