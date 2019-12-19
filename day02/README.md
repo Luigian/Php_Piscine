@@ -1,7 +1,7 @@
 <img src="../resources/images/basics.png" width="430"><img src="../resources/images/mendeleiev.png" width="430"><img src="../resources/images/doft.png" width="430"><img src="../resources/images/menu.png" width="430">
 
-# Day 00 - Piscine_Php
+# Day 02 - Piscine_Php
 
-### HTML and CSS
+### PHP
 
-This day was about learning how to create elements in HTML and give style with CSS to fictional web pages with re-directional links, tables, images, shrink responsiveness and drop down menus.
+A funny mystery story led us through various exercises to discover a little bit more about php's libraries and helpfull functions to access local and external data.
