@@ -1,7 +1,7 @@
 <img src="../resources/images/basics.png" width="430"><img src="../resources/images/mendeleiev.png" width="430"><img src="../resources/images/doft.png" width="430"><img src="../resources/images/menu.png" width="430">
 
-# Day 00 - Piscine_Php
+# Day 09 - Piscine_Php
 
-### HTML and CSS
+JavaScript and JQuery
 
-This day was about learning how to create elements in HTML and give style with CSS to fictional web pages with re-directional links, tables, images, shrink responsiveness and drop down menus.
+The las day of the piscine was dedicated to learn the syntax and functions of JavaScript, and throught DOM (Document Object Modeling) we created interactive web pages setting mouse and keyboard events to affect the appearence of HTML elements. Finally we get involved with the JQuery library and AJAX to update parts of a web page without reloading the whole page (asynchronous execution).
