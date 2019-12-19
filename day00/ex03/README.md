@@ -3,7 +3,7 @@
 # EX 03 - Day 00 - Piscine_Php
 
 ## Installation
-`open day00/ex03/responsive.html` | Open the page in the web browser.
+`open responsive.html` | Open the page in the web browser.
 
 ## Usage
 `Resize the browser window` | The table respond adjusting it size.
