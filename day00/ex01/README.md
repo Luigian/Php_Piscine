@@ -5,8 +5,6 @@
 ## Description
 Creation of a Periodic Table following specific visual requisites.
 
-# EX 01 - Day 00 - Piscine_Php
-
 ## Installation
 `open mendeleiev.html` | Open the page in the web browser.
 
