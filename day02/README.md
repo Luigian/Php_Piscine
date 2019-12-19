@@ -1,7 +1,7 @@
 <img src="../resources/images/another_world.png" width="500">
 <img src="../resources/images/one_more_time.png" width="500">
 <img src="../resources/images/magnifying_glass.png" width="500">
-<img src="../resources/images/menu.png" width="430">
+<img src="../resources/images/who.png" width="500">
 
 # Piscine_Php / day02
 
