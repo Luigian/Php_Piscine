@@ -1,7 +1,7 @@
 <img src="../resources/images/basics.png" width="430"><img src="../resources/images/mendeleiev.png" width="430"><img src="../resources/images/doft.png" width="430"><img src="../resources/images/menu.png" width="430">
 
-# Day 00 - Piscine_Php
+# Rush 00 - Piscine_Php
 
-### HTML and CSS
+### E-commerce
 
-This day was about learning how to create elements in HTML and give style with CSS to fictional web pages with re-directional links, tables, images, shrink responsiveness and drop down menus.
+After the first week of the piscine, we had to -in a weekend– create a mini e-commerce online shop. This should cover products and users management with a well organized data base. Our e-commerce should allow a user to register, connect, add articles in his basket and validate his order. Once validated, the order must be visible from an administration section.
