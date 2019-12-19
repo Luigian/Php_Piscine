@@ -31,6 +31,7 @@ This day was about learning how to create elements in HTML and give style with C
 PHP
 
 From writing the classic "hello world", in this day we started to getting familiar with the PHP syntax by coding some programs to manipulate integers and strings. 
+
 ### Day 02
 PHP
 
