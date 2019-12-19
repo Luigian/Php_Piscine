@@ -1,9 +1,9 @@
-<img src="../../resources/images/oddeven.png" width="1200">
+<img src="../../resources/images/ft_is_sort.png" width="1200">
 
-# EX 02 - Day 01 - Piscine_Php
+# EX 08 - Day 01 - Piscine_Php
 
 ## Installation
-`chmod 755 oddeven.php` | Set permissions for execution.
+`chmod 755 ft_is_sort.php` | Set permissions for execution.
 
 ## Usage
-`./oddeven.php` | executes the program.
+`./ft_is_sort.php` | executes the program.
