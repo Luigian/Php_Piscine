@@ -3,7 +3,7 @@
 # EX 02 - Day 00 - Piscine_Php
 
 ## Installation
-`open day00/ex02/doft.html` | Open the page in the web browser.
+`open doft.html` | Open the page in the web browser.
 
 ## Usage
 `click on the 'reload' icon` | Redirects to Disney official web page.
