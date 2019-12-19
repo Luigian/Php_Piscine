@@ -1,9 +1,9 @@
-<img src="../../resources/images/oddeven.png" width="1200">
+<img src="../../resources/images/epur_str.png" width="1200">
 
-# EX 02 - Day 01 - Piscine_Php
+# EX 05 - Day 01 - Piscine_Php
 
 ## Installation
-`chmod 755 oddeven.php` | Set permissions for execution.
+`chmod 755 epur_str.php` | Set permissions for execution.
 
 ## Usage
-`./oddeven.php` | executes the program.
+`./epur_str.php` | executes the program.
