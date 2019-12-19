@@ -9,4 +9,4 @@ This program takes one unique argument and reduces to a single space between eac
 `chmod 755 epur_str.php` | Set permissions for execution.
 
 ## Usage
-`./epur_str.php` | executes the program.
+`./epur_str.php [argument string]` | executes the program.
