@@ -1,6 +1,9 @@
 <img src="../../resources/images/hw.png" width="1200">
 
-# EX 00 - Day 01 - Piscine_Php
+# Piscine_Php / day01 / ex00
+
+## Description
+Creating a small program that must greet the world with its famous message.
 
 ## Installation
 `chmod 755 hw.php` | Set permissions for execution.
