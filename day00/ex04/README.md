@@ -5,8 +5,6 @@
 ## Description
 Create a SNCF (French National Railway Company) drop-down menu nice to look at.
 
-# EX 04 - Day 00 - Piscine_Php
-
 ## Installation
 `open menu.html` | Open the page in the web browser.
 
