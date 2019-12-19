@@ -1,11 +1,9 @@
-<img src="../../resources/images/basics.png" width="1200">
+<img src="../../resources/images/hw.png" width="1200">
 
-# EX 00 - Day 00 - Piscine_Php
+# EX 00 - Day 01 - Piscine_Php
 
 ## Installation
-`open basics.html` | Open the page in the web browser.
+`chmod 755 hw.php` | Set permissions for execution.
 
 ## Usage
-`click on "Chanel" link` | Redirects to Chanel official web page.
-
-`click on "Louis Vuitton" link` | Redirects to Louis Vuitton official web page.
+`./hw.php` | executes the program.
