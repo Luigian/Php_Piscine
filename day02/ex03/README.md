@@ -3,7 +3,7 @@
 # Piscine_Php / day02 / ex03
 
 ## Description
-This program acces to the utmp file that keep track of all logins and logouts to the system, and print the info retrieved in a determined format. Utmp maintains a full accounting of the current status of the system, system boot time (used by uptime), recording user logins at which terminals, logouts, system events etc.
+This program reproduce the behavior of the standard Unix command 'who', displaying a list of users who are currently logged into the computer by accesing to the utmp file that keep track of all logins and logouts to the system and printing the info retrieved in a determined format.
 
 ## Installation
 `chmod 755 who.php` | Set permissions for execution.
