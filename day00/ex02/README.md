@@ -5,8 +5,6 @@
 ## Description
 Create very precisely and totally identical a given page paying attention to all the details, the positioning, the fonts, the colors, the frames and also some links and hot links.
 
-# EX 02 - Day 00 - Piscine_Php
-
 ## Installation
 `open doft.html` | Open the page in the web browser.
 
