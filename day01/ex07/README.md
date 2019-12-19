@@ -9,4 +9,4 @@ Your program will take a string as argument, and will place the first word (spac
 `chmod 755 rostring.php` | Set permissions for execution.
 
 ## Usage
-`./rostring.php` | executes the program.
+`./rostring.php [list of arguments]` | executes the program.
