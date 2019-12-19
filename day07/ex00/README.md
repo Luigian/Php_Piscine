@@ -1,12 +1,9 @@
-<img src="../../resources/images/who.png" width="1200">
+<img src="../../resources/images/tyrion.png" width="1200">
 
-# Piscine_Php / day02 / ex03
+# Piscine_Php / day07 / ex00 : Short and proud
 
 ## Description
-This program reproduce the behavior of the standard Unix command 'who', displaying a list of users who are currently logged into the computer by accesing to the utmp file that keep track of all logins and logouts to the system and printing the info retrieved in a determined format.
-
-## Installation
-`chmod 755 who.php` | Set permissions for execution.
+This exercise whas about creating a class named Tyrion, which inheritate from the provided class named Lannister and contain a method to get the size of the class.
 
 ## Usage
-`./who.php` | executes the program.
+`php -f test.php` | executes the program.
