@@ -3,7 +3,7 @@
 <img src="../resources/images/oddeven.png" width="500">
 <img src="../resources/images/ft_split.png" width="500">
 
-# Day 01 - Piscine_Php
+# Piscine_Php / day01
 
 ### PHP
 
