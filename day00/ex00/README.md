@@ -1,6 +1,6 @@
 <img src="../../resources/images/basics.png" width="1200">
 
-# Piscine_Php/day00/ex00 : Basics or home
+# Piscine_Php / day00 / ex00 : Basics or home
 
 ## Description
 Creation of a basic web page following specific visual requisites, links, and special characters.
