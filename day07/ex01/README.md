@@ -1,9 +1,9 @@
-<img src="../../resources/images/tyrion.png" width="1200">
+<img src="../../resources/images/greyjoy.png" width="1200">
 
-# Piscine_Php / day07 / ex00 : Short and proud
+# Piscine_Php / day07 / ex01 : Words of honor
 
 ## Description
-This exercise whas about creating a class named Tyrion, which inheritate from the provided class named Lannister and contain a method to get the size of the class.
+This is the Greyjoy class which is the parent class of the provided Euron class, and contains an attribute: the family motto.
 
 ## Usage
-`php -f test.php` | executes the program.
+`php -f test1.php` | executes the program.
