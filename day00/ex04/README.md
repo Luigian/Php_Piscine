@@ -3,7 +3,7 @@
 # EX 04 - Day 00 - Piscine_Php
 
 ## Installation
-`open day00/ex04/menu.html` | Open the page in the web browser.
+`open menu.html` | Open the page in the web browser.
 
 ## Usage
 `put the mouse cursor over "Menu"` | The drop down menu will display.
