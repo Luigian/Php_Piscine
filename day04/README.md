@@ -1,7 +1,7 @@
 <img src="../resources/images/basics.png" width="430"><img src="../resources/images/mendeleiev.png" width="430"><img src="../resources/images/doft.png" width="430"><img src="../resources/images/menu.png" width="430">
 
-# Day 00 - Piscine_Php
+# Day 04 - Piscine_Php
 
-### HTML and CSS
+### PHP - MAMP
 
-This day was about learning how to create elements in HTML and give style with CSS to fictional web pages with re-directional links, tables, images, shrink responsiveness and drop down menus.
+In this day we created different pages to manage a user session. The exercises were about creating an account, login (authorization via a self-build function), changing the password and be able to save in a file certain data to create a basic multi-user chat page.
