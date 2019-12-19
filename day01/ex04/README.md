@@ -1,9 +1,9 @@
-<img src="../../resources/images/oddeven.png" width="1200">
+<img src="../../resources/images/aff_param.png" width="1200">
 
-# EX 02 - Day 01 - Piscine_Php
+# EX 04 - Day 01 - Piscine_Php
 
 ## Installation
-`chmod 755 oddeven.php` | Set permissions for execution.
+`chmod 755 aff_param.php` | Set permissions for execution.
 
 ## Usage
-`./oddeven.php` | executes the program.
+`./aff_param.php` | executes the program.
