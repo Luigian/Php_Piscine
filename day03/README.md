@@ -2,6 +2,6 @@
 
 # Day 00 - Piscine_Php
 
-### HTML and CSS
+### PHP - MAMP
 
-This day was about learning how to create elements in HTML and give style with CSS to fictional web pages with re-directional links, tables, images, shrink responsiveness and drop down menus.
+After installing our web server with the 42 PAMP tool (or localhost) we wrote php codes capable of recovering users and passwords, saving and deleting cookies, displaying images in the browser window and validating member access to fictional web pages.
