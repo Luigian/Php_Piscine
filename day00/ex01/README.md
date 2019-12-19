@@ -3,7 +3,7 @@
 # Day00 - EX01 : Mendeleïev
 
 ## Description
-Creation of a Periodic Table following specific visual requisites.
+Creation of a periodic table following specific visual requisites.
 
 ## Installation
 `open mendeleiev.html` | Open the page in the web browser.
