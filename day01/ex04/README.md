@@ -1,4 +1,4 @@
-<img src="../../resources/images/aff_aram.png" width="1200">
+<img src="../../resources/images/aff_param.png" width="1200">
 
 # EX 04 - Day 01 - Piscine_Php
 
