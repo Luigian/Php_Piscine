@@ -1,6 +1,9 @@
 <img src="../../resources/images/ft_is_sort.png" width="1200">
 
-# EX 08 - Day 01 - Piscine_Php
+# Piscine_Php / day01 / ex08
+
+## Description
+Create a little function that will reply true or false according to whether the array passed as argument is sorted or not.
 
 ## Installation
 `chmod 755 main.php` | Set permissions for execution.
