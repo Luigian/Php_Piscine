@@ -1,6 +1,6 @@
 <img src="../../resources/images/responsive.png" width="1000">
 
-# DaPiscine_Php/day00/ex03 : The shrunk agent
+# Piscine_Php/day00/ex03 : The shrunk agent
 
 ## Description
 Copying the periodic table from the ex01 and make it responsive to the browser resizing. The periodic table must shrink, the fonts as well.
