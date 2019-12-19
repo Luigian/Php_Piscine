@@ -1,4 +1,4 @@
-<img src="../resources/images/hw.png" width="500">
+<img margin="auto" src="../resources/images/hw.png" width="500">
 <img src="../resources/images/mlx.png" width="500">
 <img src="../resources/images/oddeven.png" width="500">
 <img src="../resources/images/ft_split.png" width="500">
