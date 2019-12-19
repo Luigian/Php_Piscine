@@ -1,9 +1,9 @@
-<img src="../../resources/images/tyrion.png" width="1200">
+<img src="../../resources/images/targaryen.png" width="1200">
 
-# Piscine_Php / day07 / ex00 : Short and proud
+# Piscine_Php / day07 / ex02 : Fireproofing
 
 ## Description
-This exercise whas about creating a class named Tyrion, which inheritate from the provided class named Lannister and contain a method to get the size of the class.
+This is the parent class named Targaryen, which contains two defined methods to be vulnerable to fire, but if the child class override these method, that child class could be resistant to fire.
 
 ## Usage
 `php -f test.php` | executes the program.
