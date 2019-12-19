@@ -1,4 +1,4 @@
-<img src="../../resources/images/ft_is_sort.png" width="1200">
+<img src="../../resources/images/another_world.png" width="1200">
 
 # Piscine_Php / day02 / ex00
 
@@ -8,7 +8,7 @@ This program takes one unique argument and reduces to a single space between eac
 Installation
 
 ## Installation
-`chmod 755 main.php` | Set permissions for execution.
+`chmod 755 another_world.php` | Set permissions for execution.
 
 ## Usage
-`./main.php` | executes the program.
+`./another_world.php [argument string]` | executes the program.
