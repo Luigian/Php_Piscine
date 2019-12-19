@@ -9,4 +9,4 @@ The sum of words contained in all the arguments (except the name of the program 
 `chmod 755 ssap.php` | Set permissions for execution.
 
 ## Usage
-`./ssap.php` | executes the program.
+`./ssap.php [list of arguments]` | executes the program.
