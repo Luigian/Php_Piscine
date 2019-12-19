@@ -1,6 +1,6 @@
 <img src="../../resources/images/doft.png" width="1200">
 
-# Day00 - EX02 : Day of the 42
+# Piscine_Php/day00/ex02 : Day of the 42
 
 ## Description
 Create very precisely and totally identical a given page paying attention to all the details, the positioning, the fonts, the colors, the frames and also some links and hot links.
