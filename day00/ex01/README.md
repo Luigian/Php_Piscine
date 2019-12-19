@@ -1,6 +1,6 @@
 <img src="../../resources/images/mendeleiev.png" width="1200">
 
-# Piscine_Php/day00/ex01 : Mendeleïev
+# Piscine_Php / day00 / ex01 : Mendeleïev
 
 ## Description
 Creation of a periodic table following specific visual requisites.
