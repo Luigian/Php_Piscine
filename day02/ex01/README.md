@@ -9,4 +9,4 @@ This program takes a well formatted date and convert in time stamp. The unix tim
 `chmod 755 one_more_time.php` | Set permissions for execution.
 
 ## Usage
-`./one_more_time.php [argument date]` | executes the program.
+`./one_more_time.php [argument date in french]` | executes the program.
