@@ -1,7 +1,7 @@
 <img src="../resources/images/basics.png" width="430"><img src="../resources/images/mendeleiev.png" width="430"><img src="../resources/images/doft.png" width="430"><img src="../resources/images/menu.png" width="430">
 
-# Day 00 - Piscine_Php
+# Day 06 - Piscine_Php
 
-### HTML and CSS
+### PHP - OOP
 
-This day was about learning how to create elements in HTML and give style with CSS to fictional web pages with re-directional links, tables, images, shrink responsiveness and drop down menus.
+This day we learned about how to implement object-oriented programming (OOP) in PHP. The excercises guided us to create a small program to display 3D graphics. Each class covered one graphic aspect: color, dots, lines, matrixes, camera and texture. We learned about attributes and methods (static, dynamic, public and private), instances and proper class documentation.
