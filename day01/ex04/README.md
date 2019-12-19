@@ -9,4 +9,4 @@ This program displays its command line arguments in the order received. The name
 `chmod 755 aff_param.php` | Set permissions for execution.
 
 ## Usage
-`./aff_param.php` | executes the program.
+`./aff_param.php [list of arguments]` | executes the program.
