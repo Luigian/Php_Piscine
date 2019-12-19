@@ -1,6 +1,6 @@
 <img src="../../resources/images/menu.png" width="1200">
 
-# Day00 - EX04 : SNCF Sandwich
+# Piscine_Php/day00/ex04 : SNCF Sandwich
 
 ## Description
 Create a SNCF (French National Railway Company) drop-down menu nice to look at.
