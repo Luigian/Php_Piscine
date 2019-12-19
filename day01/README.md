@@ -1,4 +1,4 @@
-<img src="../resources/images/basics.png" width="430"><img src="../resources/images/mendeleiev.png" width="430"><img src="../resources/images/doft.png" width="430"><img src="../resources/images/menu.png" width="430">
+<img src="../resources/images/hw.png" width="430"><img src="../resources/images/mlx.png" width="430"><img src="../resources/images/oddeven.png" width="430"><img src="../resources/images/ft_split.png" width="430">
 
 # Day 01 - Piscine_Php
 
