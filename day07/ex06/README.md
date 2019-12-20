@@ -1,5 +1,3 @@
-<img src="../../resources/images/factory.png" width="1200">
-
 # Piscine_Php / day07 / ex06 : The wrong kind of pact
 
 ## Description
@@ -7,3 +5,6 @@ This exercise required to create two classes, so we can display the battle actio
 
 ## Usage
 `php -f test1.php` | executes the program.
+
+## Preview
+<img src="../../resources/images/factory.png" width="1200">
