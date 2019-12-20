@@ -11,4 +11,6 @@ multiply a matrix and a vertex: mult and transformVertex.
 `php -f main_03.php` | executes the program.
 
 ## Preview
-<img src="../../resources/images/matrix.png" width="1200">
+<img src="../../resources/images/matrix_1.png" width="1200">
+<img src="../../resources/images/matrix_2.png" width="1200">
+<img src="../../resources/images/matrix_3.png" width="1200">
