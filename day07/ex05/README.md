@@ -1,5 +1,3 @@
-<img src="../../resources/images/night.png" width="1200">
-
 # Piscine_Php / day07 / ex05 : Winter is coming
 
 ## Description
@@ -7,3 +5,6 @@ For this one, we create two classes, the first is named NightsWatch, and the sec
 
 ## Usage
 `php -f test1.php` | executes the program.
+
+## Preview
+<img src="../../resources/images/night.png" width="1200">
