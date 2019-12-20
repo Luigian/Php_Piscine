@@ -1,5 +1,3 @@
-<img src="../../resources/images/color.png" width="1200">
-
 # Piscine_Php / day06 / ex00 : The Color Class
 
 ## Description
@@ -8,3 +6,5 @@ The Color class handles RGB colors. An instance can be constructed from either a
 
 ## Usage
 `php -f main_00.php` | executes the program.
+
+<img src="../../resources/images/color.png" width="1200">
