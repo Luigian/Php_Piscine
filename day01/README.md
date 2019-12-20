@@ -9,3 +9,4 @@ From writing the classic "hello world", in this day we started to getting famili
 <img src="../resources/images/oddeven.png" width="500">
 <img src="../resources/images/ft_split.png" width="500">
 <img src="../resources/images/aff_param.png" width="500">
+<img src="../resources/images/epur_str.png" width="500">
