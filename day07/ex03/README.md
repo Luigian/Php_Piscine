@@ -1,5 +1,3 @@
-<img src="../../resources/images/house.png" width="1200">
-
 # Piscine_Php / day07 / ex03 : Playing house
 
 ## Description
@@ -7,3 +5,6 @@ In this exercise we create a class named House which contains one public method 
 
 ## Usage
 `php -f test1.php` | executes the program.
+
+## Preview
+<img src="../../resources/images/house.png" width="1200">
