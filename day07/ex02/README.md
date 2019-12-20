@@ -1,5 +1,3 @@
-<img src="../../resources/images/targaryen.png" width="1200">
-
 # Piscine_Php / day07 / ex02 : Fireproofing
 
 ## Description
@@ -7,3 +5,6 @@ This is the parent class named Targaryen, which contains two defined methods to 
 
 ## Usage
 `php -f test.php` | executes the program.
+
+## Preview
+<img src="../../resources/images/targaryen.png" width="1200">
