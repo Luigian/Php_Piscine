@@ -1,5 +1,3 @@
-<img src="../../resources/images/one_more_time.png" width="1200">
-
 # Piscine_Php / day02 / ex01 : One more time
 
 ## Description
@@ -10,3 +8,6 @@ This program takes a well formatted date (in french) and convert in time stamp. 
 
 ## Usage
 `./one_more_time.php [argument date]` | executes the program.
+
+## Preview
+<img src="../../resources/images/one_more_time.png" width="1200">
