@@ -1,5 +1,3 @@
-<img src="../../resources/images/jaime.png" width="1200">
-
 # Piscine_Php / day07 / ex04 : His sister ? Seriously
 
 ## Description
@@ -7,3 +5,6 @@ In this bizarre exercise we use the parent class Lannister and two child classes
 
 ## Usage
 `php -f test.php` | executes the program.
+
+## Preview
+<img src="../../resources/images/jaime.png" width="1200">
