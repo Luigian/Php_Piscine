@@ -8,4 +8,4 @@ The Color class handles RGB colors. An instance can be constructed from either a
 `php -f main_00.php` | executes the program.
 
 ## Preview
-<img src="../../resources/images/colr.png" width="1200">
+<img src="../../resources/images/color.png" width="1200">
