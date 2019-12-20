@@ -1,11 +1,11 @@
-# Piscine_Php / day06 / ex00 : The Color Class
+# Piscine_Php / day06 / ex01 : The Vertex Class
 
 ## Description
-This Color Class will allow us to represent colors and perform a few simple operations on their components.
-The Color class handles RGB colors. An instance can be constructed from either a RGB value or from distinct red, green, blue constitutives. The class provides the following methods: Color add, Color sub and Color mult.
+This class will now look at the representation of a point in space: the "vertex".
+An instance can be constructed from distinct x, y, z constitutives, the attributes are private and the class not provides any method.
 
 ## Usage
-`php -f main_00.php` | executes the program.
+`php -f main_01.php` | executes the program.
 
 ## Preview
-<img src="../../resources/images/color.png" width="1200">
+<img src="../../resources/images/vertex.png" width="1200">
