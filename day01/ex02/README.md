@@ -1,5 +1,3 @@
-<img src="../../resources/images/oddeven.png" width="1200">
-
 # Piscine_Php / day01 / ex02
 
 ## Description
@@ -10,3 +8,6 @@ Create a program in php that will kindly ask of you a pile number, and that will
 
 ## Usage
 `./oddeven.php` | executes the program.
+
+## Preview
+<img src="../../resources/images/oddeven.png" width="1200">
