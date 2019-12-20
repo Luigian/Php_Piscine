@@ -1,6 +1,9 @@
-<img src="../resources/images/basics.png" width="430"><img src="../resources/images/mendeleiev.png" width="430"><img src="../resources/images/doft.png" width="430"><img src="../resources/images/menu.png" width="430">
+<img src="../resources/images/basics.png" width="430">
+<img src="../resources/images/mendeleiev.png" width="430">
+<img src="../resources/images/doft.png" width="430">
+<img src="../resources/images/menu.png" width="430">
 
-# Day 06 - Piscine_Php
+# Piscine_Php / day06
 
 ### PHP - OOP
 
