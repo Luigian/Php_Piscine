@@ -1,5 +1,3 @@
-<img src="../../resources/images/another_world.png" width="1200">
-
 # Piscine_Php / day02 / ex00 : Another World
 
 ## Description
@@ -10,3 +8,6 @@ This program takes one unique argument and reduces to a single space between eac
 
 ## Usage
 `./another_world.php [argument string]` | executes the program.
+
+## Preview
+<img src="../../resources/images/another_world.png" width="1200">
