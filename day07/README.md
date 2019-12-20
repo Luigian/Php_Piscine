@@ -1,7 +1,7 @@
 <img src="../resources/images/tyrion.png" width="500">
 <img src="../resources/images/greyjoy.png" width="500">
 <img src="../resources/images/targaryen.png" width="500">
-<img src="../resources/images/.png" width="500">
+<img src="../resources/images/house.png" width="500">
 
 # Day 07 - Piscine_Php
 
