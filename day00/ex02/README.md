@@ -1,5 +1,3 @@
-<img src="../../resources/images/doft.png" width="1200">
-
 # Piscine_Php / day00 / ex02 : Day of the 42
 
 ## Description
@@ -16,3 +14,7 @@ Create very precisely and totally identical a given page paying attention to all
 `click on the middle chair at the center of the main picture` | Redirects to Ikea official web page.
 
 `click on the back of the computer at the right side of the main picture` | Redirects to Apple official web page.
+
+## Preview
+
+<img src="../../resources/images/doft.png" width="1200">
