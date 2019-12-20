@@ -1,5 +1,3 @@
-<img src="../../resources/images/mlx.png" width="1200">
-
 # Piscine_Php / day01 / ex01
 
 ## Description
@@ -10,3 +8,6 @@ Create a program that can display 1000 times the letter X, a newline, and with t
 
 ## Usage
 `./mlx.php` | executes the program.
+
+## Preview
+<img src="../../resources/images/mlx.png" width="1200">
