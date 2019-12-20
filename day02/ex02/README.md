@@ -1,5 +1,3 @@
-<img src="../../resources/images/magnifying_glass.png" width="1200">
-
 # Piscine_Php / day02 / ex02 : The magnifying glass
 
 ## Description
@@ -10,3 +8,6 @@ This program takes a html document as argument and convert all the links to uppe
 
 ## Usage
 `./magnifying_glass.php [argument html file]` | executes the program.
+
+## Preview
+<img src="../../resources/images/magnifying_glass.png" width="1200">
