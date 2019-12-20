@@ -1,5 +1,3 @@
-<img src="../../resources/images/who.png" width="1200">
-
 # Piscine_Php / day02 / ex03 : Who are you ?
 
 ## Description
@@ -10,3 +8,6 @@ This program reproduce the behavior of the standard Unix command 'who', displayi
 
 ## Usage
 `./who.php` | executes the program.
+
+## Preview
+<img src="../../resources/images/who.png" width="1200">
