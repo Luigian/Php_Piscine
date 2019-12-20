@@ -1,5 +1,3 @@
-<img src="../../resources/images/rostring.png" width="1200">
-
 # Piscine_Php / day01 / ex07
 
 ## Description
@@ -10,3 +8,6 @@ Your program will take a string as argument, and will place the first word (spac
 
 ## Usage
 `./rostring.php [argument string]` | executes the program.
+
+## Preview
+<img src="../../resources/images/rostring.png" width="1200">
