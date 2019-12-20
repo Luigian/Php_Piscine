@@ -1,5 +1,3 @@
-<img src="../../resources/images/epur_str.png" width="1200">
-
 # Piscine_Php / day01 / ex05
 
 ## Description
@@ -10,3 +8,6 @@ This program takes one unique argument and reduces to a single space between eac
 
 ## Usage
 `./epur_str.php [argument string]` | executes the program.
+
+## Preview
+<img src="../../resources/images/epur_str.png" width="1200">
