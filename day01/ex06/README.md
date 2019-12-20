@@ -1,5 +1,3 @@
-<img src="../../resources/images/ssap.png" width="1200">
-
 # Piscine_Php / day01 / ex06
 
 ## Description
@@ -10,3 +8,6 @@ The sum of words contained in all the arguments (except the name of the program 
 
 ## Usage
 `./ssap.php [list of arguments]` | executes the program.
+
+## Preview
+<img src="../../resources/images/ssap.png" width="1200">
