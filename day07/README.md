@@ -10,3 +10,4 @@ A day dedicated to Game of Thrones, allowed us to better understand the logic of
 <img src="../resources/images/house.png" width="500">
 <img src="../resources/images/jaime.png" width="500">
 <img src="../resources/images/night.png" width="500">
+<img src="../resources/images/factory.png" width="500">
