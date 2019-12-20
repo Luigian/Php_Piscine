@@ -1,9 +1,9 @@
-<img src="../../resources/images/tyrion.png" width="1200">
+<img src="../../resources/images/jaime.png" width="1200">
 
-# Piscine_Php / day07 / ex00 : Short and proud
+# Piscine_Php / day07 / ex04 : His sister ? Seriously
 
 ## Description
-This exercise whas about creating a class named Tyrion, which inheritate from the provided class named Lannister and contain a method to get the size of the class.
+In this bizarre exercise we use the parent class Lannister and two child classes: Jaime and Tyrion, to set the conditions that will determine if the mentioned child class will perpetuate intimate relations with others given characters of Game of Thrones... yes.
 
 ## Usage
 `php -f test.php` | executes the program.
