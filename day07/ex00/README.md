@@ -1,5 +1,3 @@
-<img src="../../resources/images/tyrion.png" width="1200">
-
 # Piscine_Php / day07 / ex00 : Short and proud
 
 ## Description
@@ -7,3 +5,6 @@ This exercise whas about creating a class named Tyrion, which inheritates from t
 
 ## Usage
 `php -f test.php` | executes the program.
+
+## Preview
+<img src="../../resources/images/tyrion.png" width="1200">
