@@ -1,5 +1,3 @@
-<img src="../../resources/images/responsive.png" width="1000">
-
 # Piscine_Php / day00 / ex03 : The shrunk agent
 
 ## Description
@@ -12,3 +10,6 @@ Copying the periodic table from the ex01 and make it responsive to the browser r
 `Resize the browser window` | The table respond adjusting it size.
 
 `Observe the table` | Enjoy the Mendeleiev Periodic Table.
+
+## Preview
+<img src="../../resources/images/responsive.png" width="1000">
