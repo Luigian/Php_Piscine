@@ -1,5 +1,3 @@
-<img src="../../resources/images/ft_split.png" width="1200">
-
 # Piscine_Php / day01 / ex03
 
 ## Description
@@ -10,3 +8,6 @@ Create the ft_split function. It will take a string as argument, and will return
 
 ## Usage
 `./main.php` | executes the program.
+
+## Preview
+<img src="../../resources/images/ft_split.png" width="1200">
