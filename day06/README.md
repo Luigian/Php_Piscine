@@ -7,4 +7,6 @@ This day we learned about how to implement object-oriented programming (OOP) in 
 <img src="../resources/images/color.png" width="500">
 <img src="../resources/images/vertex.png" width="500">
 <img src="../resources/images/vector.png" width="500">
-<img src="../resources/images/matrix.png" width="500">
+<img src="../resources/images/matrix_1.png" width="500">
+<img src="../resources/images/matrix_2.png" width="500">
+<img src="../resources/images/matrix_3.png" width="500">
