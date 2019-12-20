@@ -1,5 +1,3 @@
-<img src="../../resources/images/aff_param.png" width="1200">
-
 # Piscine_Php / day01 / ex04
 
 ## Description
@@ -10,3 +8,6 @@ This program displays its command line arguments in the order received. The name
 
 ## Usage
 `./aff_param.php [list of arguments]` | executes the program.
+
+## Preview
+<img src="../../resources/images/aff_param.png" width="1200">
