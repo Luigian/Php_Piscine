@@ -1,10 +1,11 @@
-<img src="../../resources/images/night.png" width="1200">
-<img src="main_00.out" width="1200">
-
 # Piscine_Php / day06 / ex00 : The Color Class
 
 ## Description
-For this one, we create two classes, the first is named NightsWatch, and the second is actually an interface named IFighter. The NightsWatch have two public methods, one for adding attributes to an array and the other to run a method in the child classes. The array will be fulled only by attributes instanciated by classes that are implementing the interface IFighter. The result is an array full with 'fighters', and then we can display their actions in the battle.
+This Color Class will allow us to represent colors and perform a few simple operations on their components.
+The Color class handles RGB colors. An instance can be constructed from either a RGB value or from distinct red, green, blue constitutives. The class provides the following methods: Color add, Color sub and Color mult.
 
 ## Usage
 `php -f main_00.php` | executes the program.
+
+## Preview
+<img src="../../resources/images/color.png" width="1200">
