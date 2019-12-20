@@ -1,5 +1,3 @@
-<img src="../../resources/images/greyjoy.png" width="1200">
-
 # Piscine_Php / day07 / ex01 : Words of honor
 
 ## Description
@@ -7,3 +5,6 @@ This is the Greyjoy class which is the parent class of the provided Euron class,
 
 ## Usage
 `php -f test1.php` | executes the program.
+
+## Preview
+<img src="../../resources/images/greyjoy.png" width="1200">
