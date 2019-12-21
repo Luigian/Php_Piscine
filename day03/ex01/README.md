@@ -10,4 +10,4 @@ The goal of this exercise was to create a page named phpinfo.php that will execu
 `open http://localhost:8080/day03/ex01/phpinfo.php` | Open the page in the web browser.
 
 ## Preview
-<img src="../../resources/images/info.png" width="1200">
+<img src="../../resources/images/ifo.png" width="1200">
