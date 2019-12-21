@@ -1,13 +1,13 @@
-# Piscine_Php / day03 / ex01 : phpinfo
+# Piscine_Php / day03 / ex02 : print_get
 
 ## Description
-The goal of this exercise was to create a page named phpinfo.php that will execute and show the result on phpinfo().
+The goal of this exercise is to create a page named print_get.php that will display all the variables passed in the url.
 
 ## Installation
 `php -S localhost:8080` | start the development server.
 
 ## Usage
-`open http://localhost:8080/day03/ex01/phpinfo.php` | Open the page in the web browser.
+`curl 'http://localhost:8080/day03/ex02/print_get.php?login=mmontinet'` | Executes the program.
 
 ## Preview
-<img src="../../resources/images/info.png" width="1200">
+<img src="../../resources/images/get.png" width="1200">
