@@ -10,4 +10,4 @@ The objective of this exercise was to create a page named index.html that contai
 `curl -d login=[login name] -d passwd=[password] -d submit=OK 'http://localhost:8080/day04/ex01/create.php'` | Executes the program.
 
 ## Preview
-<img src="../../resources/images/create .png" width="1200">
+<img src="../../resources/images/create.png" width="1200">
