@@ -11,6 +11,6 @@ The objective of this exercise was to create a page named members_only.php that 
 
 `curl -v --user root:root http://localhost:8080/day03/ex06/members_only.php` | Error test case.
 
-## Preview
+## Previews
 <img src="../../resources/images/members_1.png" width="1200">
 <img src="../../resources/images/members_2.png" width="1200">
