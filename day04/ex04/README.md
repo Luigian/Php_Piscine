@@ -7,11 +7,11 @@ The goal of this exercise was to create a multi-user chat, by resuming from our 
 `php -S localhost:8080` | start the development server.
 
 ## Usage
-`curl -c [cookie file path] 'http://localhost:8080/day04/ex03/login.php?login=[login name]&passwd=[password]'` | Executes login.php.
+`curl -c [user cookie file path] -d login=[name] -d passwd=[password] 'http://localhost:8080/day04/ex04/login.php'` | Executes login.php and open the chat window.
 
-`curl curl -b [cookie file path] 'http://localhost:8080/day04/ex03/whoami.php'` | Executes whoami.php.
+`curl -b [user cookie file path] -d submit=OK -d msg=[message] 'http://localhost:8080/day04/ex04/speak.php'` | Executes speak.php and save the message in the cookie file.
 
-`curl curl -b [cookie file path] 'http://localhost:8080/day04/ex03/logout.php'` | Executes logout.php.
+`curl -b [user cookie file path] 'http://localhost:8080/day04/ex04/chat.php'` | Executes chat.php and display the messages contained in the cookie file.
 
 ## Preview
 <img src="../../resources/images/chat.png" width="1200">
