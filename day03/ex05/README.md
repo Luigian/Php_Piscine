@@ -11,6 +11,6 @@ The objective of this exercise was to create a page named read_img.php that will
 
 `open http://localhost:8080/day03/ex05/read_img.php` | Open the page in the web browser.
 
-## Preview
+## Previews
 <img src="../../resources/images/read_1.png" width="1200">
 <img src="../../resources/images/read_2.png" width="1200">
