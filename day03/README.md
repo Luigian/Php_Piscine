@@ -2,7 +2,7 @@
 
 ### PHP - MAMP
 
-After installing our web server with the 42 PAMP tool (or localhost) we wrote php codes capable of recovering users and passwords, saving and deleting cookies, displaying images in the browser window and validating member access to fictional web pages.
+After installing our web server with the 42 PAMP tool, or starting the development server (localhost), we wrote php codes to recover users and passwords, save and delete cookies, read and display images in the browser window and validate member access to web pages.
 
 <img src="../resources/images/get.png" width="500">
 <img src="../resources/images/cookie.png" width="500">
