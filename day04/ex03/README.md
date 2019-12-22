@@ -1,7 +1,10 @@
-# Piscine_Php / day04 / 02 : Modif account
+# Piscine_Php / day04 / 03 : Auth
 
 ## Description
-The objective of this exercise was to create a page named index.html that will contain a form allowing to modify the password associated to an account. The user will need to submit its username, its current password and its new password.
+The objective of this exercise was to create four files: 
+- login.php (helped by auth.php functiont): this page will start the session, check the validity of the combo login/passwd and store in the session a variable “loggued_on_user”.
+- whoami.php: will use the session cookie to display the login contained in ‘loggued_on_user”.
+- logout.php: will remove the session cookie to finish the user's session.
 
 ## Installation
 `php -S localhost:8080` | start the development server.
