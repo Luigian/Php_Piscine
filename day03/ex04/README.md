@@ -1,17 +1,13 @@
-# Piscine_Php / day03 / ex03 : cookie_crisp
+# Piscine_Php / day03 / ex04 : raw_text
 
 ## Description
-The objective of this exercise was to create a page named cookie_crisp.php that will allow to create, read and erase a cookie.
+The objective of this exercise was to create a page named raw_text that will show the same thing on the screen if you look at its source code with curl or its html rendered in Chrome.
 
 ## Installation
 `php -S localhost:8080` | start the development server.
 
 ## Usage
-`curl -c [cookie file path] 'http://localhost:8080/day03/ex03/cookie_crisp.php?action=set&name=[cookie name]&value=[cookie value]'` | Creates a cookie in the specified file.
-
-`curl -b [cookie file path] 'http://localhost:8080/day03/ex03/cookie_crisp.php?action=get&name=[cookie name]'` | Display the cookie value.
-
-`curl -c [cookie file path] 'http://localhost:8080/day03/ex03/cookie_crisp.php?action=del&name=[cookie name]'` | Erase the cookie.
+`curl 'http://localhost:8080/day03/ex04/raw_text.php'` | Executes the program.
 
 ## Preview
-<img src="../../resources/images/cookie.png" width="1200">
+<img src="../../resources/images/raw.png" width="1200">
