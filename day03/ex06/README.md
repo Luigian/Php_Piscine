@@ -7,7 +7,7 @@ The objective of this exercise was to create a page named members_only.php that 
 `php -S localhost:8080` | start the development server.
 
 ## Usage
-`curl --user zaz:jaimelespetitsponeys http://localhost:8080/day03/ex06/members_only.php` | Executes the program.
+`curl --user zaz:Ilovemylittleponey http://localhost:8080/day03/ex06/members_only.php` | Executes the program.
 
 `curl -v --user root:root http://localhost:8080/day03/ex06/members_only.php` | Error test case.
 
