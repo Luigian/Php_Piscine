@@ -40,17 +40,17 @@ A funny mystery story led us through various exercises to discover a little bit 
 ### Day 03
 PHP - MAMP
 
-After installing our web server with the 42 PAMP tool (or localhost) we wrote php codes capable of recovering users and passwords, saving and deleting cookies, displaying images in the browser window and validating member access to fictional web pages.
+After installing our web server with the 42 PAMP tool, or starting the development server (localhost), we wrote php codes to recover users and passwords, save and delete cookies, read and display images in the browser window and validate member access to web pages.
 
 ### Day 04
 PHP - MAMP
 
-In this day we created different pages to manage a user session. The exercises were about creating an account, login (authorization via a self-build function), changing the password and be able to save in a file certain data to create a basic multi-user chat page.
+In this day we created different pages to manage a user session. The exercises were about creating an account, login (authorization via a self-build function), changing the password, and be able to save in a file the users data to create a basic multi-user chat page.
 
 ### Day 05
 SQL
 
-Is the start of the second week and now we were writing more than twenty different commands to work with databases using SQL language. The exercises covered creation of databases and tables, inserting, updating, and selection of data. By combining some functions we were able to display specific and requiered data from a quite long fictional film database provided to us.
+Is the start of the second week and now we were writing more than twenty different commands to work with databases using SQL language. The exercises covered creation of databases and tables, inserting, updating, and selection of data. By combining some functions we were able to display specific and requiered information from a films database.
 
 ### Day 06
 PHP - OOP
