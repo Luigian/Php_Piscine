@@ -1,4 +1,10 @@
-<img src="../resources/images/.png" width="430"><img src="../resources/images/.png" width="430"><img src="../resources/images/.png" width="430"><img src="../resources/images/.png" width="430">
+<img src="../resources/images/get.png" width="500">
+<img src="../resources/images/cookie.png" width="500">
+<img src="../resources/images/raw.png" width="500">
+<img src="../resources/images/read_1.png" width="500">
+<img src="../resources/images/read_2.png" width="500">
+<img src="../resources/images/members_1.png" width="500">
+<img src="../resources/images/members_2.png" width="500">
 
 # Day 03 - Piscine_Php
 
