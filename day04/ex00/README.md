@@ -1,16 +1,13 @@
-# Piscine_Php / day03 / ex05 : read_img
+# Piscine_Php / day04 / ex00 : Session
 
 ## Description
-The objective of this exercise was to create a page named read_img.php that will return to the browser the file 42.png with the right Content-Type.
+The objective of this exercise was to create a page named index.php that contains a form allowing to create/modify its username and password.
 
 ## Installation
 `php -S localhost:8080` | start the development server.
 
 ## Usage
-`curl --head http://localhost:8080/day03/ex05/read_img.php` | Executes the program.
-
-`open http://localhost:8080/day03/ex05/read_img.php` | Open the page in the web browser.
+`curl -v -b cook.txt 'http://localhost:8080/day04/ex00/index.php?login=sb&passwd=beeone&submit=OK'` | Executes the program.
 
 ## Preview
-<img src="../../resources/images/read_1.png" width="1200">
-<img src="../../resources/images/read_2.png" width="1200">
+<img src="../../resources/images/session.png" width="1200">
