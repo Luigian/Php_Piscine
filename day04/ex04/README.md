@@ -1,12 +1,7 @@
-# Piscine_Php / day04 / 03 : Auth
+# Piscine_Php / day04 / 04 : 42chat
 
 ## Description
-The objective of this exercise was to create four files: 
-- login.php: this page will start the session, check the validity of the combo login/passwd 
-and store in the session a variable “loggued_on_user”.
-- auth.php: is the function that helps login.php to validate the login/passwd combo.
-- whoami.php: will use the session cookie to display the login contained in ‘loggued_on_user”.
-- logout.php: will remove the session cookie to finish the user's session.
+The goal of this exercise was to create a multi-user chat, by resuming from our files of prior exercises and add number new ones: index.html, create.html, modif.html, speak.php and chat.php. Speak.php will allow a user to post a message on the chat, and chat.php will allow to display the content of this chat.
 
 ## Installation
 `php -S localhost:8080` | start the development server.
@@ -19,4 +14,4 @@ and store in the session a variable “loggued_on_user”.
 `curl curl -b [cookie file path] 'http://localhost:8080/day04/ex03/logout.php'` | Executes logout.php.
 
 ## Preview
-<img src="../../resources/images/auth.png" width="1200">
+<img src="../../resources/images/chat.png" width="1200">
