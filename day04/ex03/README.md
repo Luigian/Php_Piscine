@@ -12,7 +12,11 @@ and store in the session a variable “loggued_on_user”.
 `php -S localhost:8080` | start the development server.
 
 ## Usage
-`curl -d login=x -d oldpw=21 -d newpw=42 -d submit=OK 'http://localhost:8080/day04/ex02/modif.php'` | Executes the program.
+`curl -c [cookie file path] 'http://localhost:8080/day04/ex03/login.php?login=[login name]&passwd=[password]'` | Executes login.php.
+
+`curl curl -b [cookie file path] 'http://localhost:8080/day04/ex03/whoami.php'` | Executes whoami.php.
+
+`curl curl -b [cookie file path] 'http://localhost:8080/day04/ex03/logout.php'` | Executes logout.php.
 
 ## Preview
-<img src="../../resources/images/modif.png" width="1200">
+<img src="../../resources/images/auth.png" width="1200">
