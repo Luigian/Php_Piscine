@@ -10,4 +10,4 @@ Write the reuqest for fill the table from ex01 with specific information provide
 `mysql> source day05/ex02/ex02.sql;` | executes the request.
 
 ## Preview
-<img src="../../resources/images/table.png" width="1200">
+<img src="../../resources/images/mass.png" width="1200">
