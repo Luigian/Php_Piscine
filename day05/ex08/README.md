@@ -1,7 +1,7 @@
-# Piscine_Php / day05 / ex06 : Where is vinc’ ?
+# Piscine_Php / day05 / ex08 : The good old days...
 
 ## Description
-Create the request to display, from the table 'film', the title and summary of all movies containing ’Vincent’ in their summary. The research must be case-insensitive. Order the results by ascending id_film.
+Create the request to display the last_name, first_name and birthdate (only the date, not the time) from the table user_card in a column named ’birthdate’ of everyone born in 1989, ordered alphabetically by last_name.
 
 ## Installation
 `mysql db_lusanche < day05/base-student.sql > output.tab;` | add 'film' table to our database.
@@ -9,7 +9,7 @@ Create the request to display, from the table 'film', the title and summary of a
 `mysql` | connect to local MySQL server.
 
 ## Usage
-`mysql> source day05/ex06/ex06.sql;` | executes the request.
+`mysql> source day05/ex08/ex08.sql;` | executes the request.
 
 ## Preview
 <img src="../../resources/images/vincent.png" width="1200">
