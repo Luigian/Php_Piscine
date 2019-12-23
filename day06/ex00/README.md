@@ -1,4 +1,4 @@
-# Piscine_Php / day06 / ex00 : The Color Class
+# Php_Piscine / day06 / ex00 : The Color Class
 
 ## Description
 This Color Class will allow us to represent colors and perform a few simple operations on their components.
