@@ -1,4 +1,4 @@
-# Piscine_Php / day04 / 02 : Modif account
+# Php_Piscine / day04 / 02 : Modif account
 
 ## Description
 The objective of this exercise was to create a page named index.html that will contain a form allowing to modify the password associated to an account. The user will need to submit its username, its current password and its new password.
