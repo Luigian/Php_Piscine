@@ -1,4 +1,4 @@
-# Piscine_Php / day04 / ex00 : Session
+# Php_Piscine / day04 / ex00 : Session
 
 ## Description
 The objective of this exercise was to create a page named index.php that contains a form allowing to create/modify its username and password.
