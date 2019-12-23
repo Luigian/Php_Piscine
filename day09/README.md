@@ -1,4 +1,4 @@
-# Day 09 - Piscine_Php
+# Day 09 - Php_Piscine
 
 JavaScript and JQuery
 
