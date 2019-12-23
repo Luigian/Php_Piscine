@@ -14,6 +14,4 @@ Create in HTML/CSS a div 200px by 200px with a red background color. The bor- de
 
 ## Preview
 
-<img border="1px gray" src="../../resources/images/balloon_1.png" width="500">
-<img src="../../resources/images/balloon_2.png" width="500">
-<img src="../../resources/images/balloon_3.png" width="500">
+<img src="../../resources/images/balloon.png" width="1000">
