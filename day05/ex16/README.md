@@ -1,15 +1,15 @@
-# Piscine_Php / day05 / ex15 : What’s your phone number?
+# Piscine_Php / day05 / ex16 : Is it Christmas time?
 
 ## Description
-Create the request to display all the distributors’ phone_number starting with ’05’ by removing the number 0 before the 5 and by reverting the numbers, in a column named ’rebmunenohp’ (ex : 0542842169 -> 961248245).
+Create the request to display the total number of movies watched between 10/30/2006 and 07/27/2007 in a column named ’movies’ counting also the number of movies watched on Christmas Eve (December 24th every year).
 
 ## Installation
-`mysql db_lusanche < day05/base-student.sql > output.tab;` | add 'distrib' table to our database.
+`mysql db_lusanche < day05/base-student.sql > output.tab;` | add 'member_history' table to our database.
 
 `mysql` | connect to local MySQL server.
 
 ## Usage
-`mysql> source day05/ex15/ex15.sql;` | executes the request.
+`mysql> source day05/ex16/ex16.sql;` | executes the request.
 
 ## Preview
-<img src="../../resources/images/phone.png" width="1200">
+<img src="../../resources/images/christmas.png" width="1200">
