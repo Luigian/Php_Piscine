@@ -1,4 +1,4 @@
-# Piscine_Php / day00 / ex01 : Mendeleïev
+# Php_Piscine / day00 / ex01 : Mendeleïev
 
 ## Description
 Creation of a periodic table following specific visual requisites.
