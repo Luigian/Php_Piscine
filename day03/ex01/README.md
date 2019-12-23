@@ -1,4 +1,4 @@
-# Piscine_Php / day03 / ex01 : phpinfo
+# Php_Piscine / day03 / ex01 : phpinfo
 
 ## Description
 The goal of this exercise was to create a page named phpinfo.php that will execute and show the result on phpinfo().
