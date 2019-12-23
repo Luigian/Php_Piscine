@@ -7,9 +7,9 @@ The gol for this exercise was to create in HTML/CSS a div 200px by 200px with a 
 `open ballon.html` | Open the page in the web browser.
 
 ## Usage
-`click on the red circle` | The circle increases its size and change color (red-green-blue-red).
+`click on the red circle` | The circle increases and color change from red to green to blue.
 
-`mouse leaves the circle` | The circle decreases its size and change color in reverse order (red-blue-green-red).
+`mouse leaves the circle` | The circle decreases and color change in reverse from red to blue to green.
 
 ## Preview
 
