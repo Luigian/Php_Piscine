@@ -72,12 +72,14 @@ JavaScript and JQuery
 
 The las day of the piscine was dedicated to learn the syntax and functions of JavaScript, and throught DOM (Document Object Modeling) we created interactive web pages setting mouse and keyboard events to affect the appearence of HTML elements. Finally we get involved with the JQuery library and AJAX to update parts of a web page without reloading the whole page (asynchronous execution).
 
-<kbd><img src="resources/images/todo.png" width="200"></kbd>
+<kbd><img src="resources/images/balloon.png" width="200"></kbd><kbd><img src="resources/images/calc.png" width="200"></kbd><kbd><img src="resources/images/todo.png" width="200"></kbd>
 
 ### Rush 00
 E-commerce
 
 After the first week of the piscine, we had to -in a weekend– create a mini e-commerce online shop. This should cover products and users management with a well organized data base. Our e-commerce should allow a user to register, connect, add articles in his basket and validate his order. Once validated, the order must be visible from an administration section.
+
+<kbd><img src="resources/images/commerce_1.png" width="2000"></kbd><kbd><img src="resources/images/commerce_2.png" width="2000"></kbd>
 
 ### Rush 01
 Awesome Starships Battles II
