@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Piscine_Php / day05 / ex03 : Copy!
+=======
+# Piscine_Php / day05 / ex04 : Updates pending, please restart
+>>>>>>> 67420b840fc550a257d30fdbbd29fe32b9ff53ea
 
 ## Description
 Create the request to fill the table from ex01 using a second table’s data.
