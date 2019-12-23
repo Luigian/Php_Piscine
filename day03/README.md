@@ -1,4 +1,4 @@
-# Day 03 - Piscine_Php
+# Day 03 - Php_Piscine
 
 ### PHP - MAMP
 
