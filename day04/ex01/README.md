@@ -1,4 +1,4 @@
-# Piscine_Php / day04 / ex01 : Create account
+# Php_Piscine / day04 / ex01 : Create account
 
 ## Description
 The objective of this exercise was to create a page named index.html that contains a form allowing to create an account with a username and a password. A valid account consist of a username and a not blank password (no empty chain), if the password is empty return “ERROR\n”. In case of success return “OK\n”.
