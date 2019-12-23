@@ -17,4 +17,4 @@ The gol for this exercise was to create a basic task manager. There must be a bu
 
 ## Preview
 
-<img src="../../resources/images/todo.png" width="1000">
+<kbd><img src="../../resources/images/todo.png" width="1000"></kbd>
