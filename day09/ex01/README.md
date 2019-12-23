@@ -11,4 +11,4 @@ The gol for this exercise was to create a basic calculator. The result also need
 
 ## Preview
 
-<img src="../../resources/images/calc.png" width="500">
+<img src="../../resources/images/calc.png" width="1000">
