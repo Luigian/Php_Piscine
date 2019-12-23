@@ -1,4 +1,4 @@
-# Piscine_Php / day03 / ex03 : cookie_crisp
+# Php_Piscine / day03 / ex03 : cookie_crisp
 
 ## Description
 The objective of this exercise was to create a page named cookie_crisp.php that will allow to create, read and erase a cookie.
