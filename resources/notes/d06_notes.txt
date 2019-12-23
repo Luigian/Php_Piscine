@@ -1,0 +1,94 @@
+Videos
+
+> php -f main_00.php
+> php -f Example.class.php
+-----------------------------------------
+class
+attributes -  variables in a class
+methods - functions in a class
+-----------------------------------------
+
+</php
+
+class declaration section
+
+	-attribute declarations
+	-constructor declaration
+	-destructor declaration
+	-method declaration
+
+
+class instance section
+
+	-class instance: $instance = new Example();
+	-attribute instance: $instance->foo = 42;
+	-method instance: $instance->bar();
+
+?>
+-----------------------------------------------------
+
+$this->'attribute'
+$this->'method'
+-----------------------------------------------------
+public $publicFoo = 0;
+private $_privateFoo = 'hello';
+
+function publicBar(){}
+private function _privateBar(){}
+
+(no undescore: public)
+(one underscore: private)
+(two underscore: special methods)
+-----------------------------------------------------
+
+methods:
+__get
+__set
+__toString
+__invoke
+clone
+__clone
+
+--------------------------------------------------------------------
+
+class = static
+instance = dynamic
+
+the class is the static part that you declare, the instance is the dynamic part, it is the result of the execution of the code contained inside your class. For one class we can have various instances.
+
+-----------------------------------------------------------------------
+
+class constants
+self::CST1           	<------ refers to the constant from inside of the class
+Example::CST1		<------ refers to the constant from outside of the class
+
+----------------------------------------------------------------------------------
+
+static methods
+static attributes
+
+-------------------------------------------------------------------------------
+attempt to call functions that doesnt exist:
+
+__call
+__callstatic
+
+-------------------------------------------------------------------------------
+
+structural comparison (state)
+==
+
+physical comparison (address)
+===
+
+--------------------------------------------------------------------------------
+
+access to show private attributes
+getAtt()
+
+access to modify private attributes
+setAtt()
+
+
+
+

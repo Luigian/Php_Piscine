@@ -1,0 +1,184 @@
+~/http/MyWebSite/D03/
+
+Managed Software Center / PAMP
+
+
+##############################    VIDEO    ########################################
+
+whirlpool
+echo hash('whirlpool', "He89llo", 0);
+session_start()
+$_SESSION
+
+################################   EX00   #########################################
+
+to run the website, i need:
+
+1. go to home(lusanche ~)/http/
+2. place the files in there
+3. open PAMP and push play
+4. put the following in browser: http://e1z3r1p12.42.fr:8080/(in here the path to the index.php file) *as if the 8080 was the http directory
+
+*e1z3r1p12 --> 'p12' will vary from one computer to another at campus.
+example: 
+http://e1z3r1p12.42.fr:8080/d04/ex00/index.php
+
+------------------------------------------------------------------------------------
+
+LOAD
+curl -v -c cook.txt "http://e1z3r1p12.42.fr:8080/d04/ex00/index.php"
+
+SUBMIT LOGIN/PASS
+curl -v -b cook.txt "http://e1z3r1p12.42.fr:8080/d04/ex00/index.php?login=luis&passwd=sanchez&submit=OK"
+
+RELOAD
+curl -v -b cook.txt "http://e1z3r1p12.42.fr:8080/d04/ex00/index.php"
+
+NO COOKIE
+curl -v "http://e1z3r1p12.42.fr:8080/d04/ex00/index.php"
+
+##############################    EX01    ############################################
+
+http://e1z3r1p12.42.fr:8080/d04/ex01/index.html
+
+RM PASSWD
+rm ~/http/MyWebSite/d04/private/passwd
+
+OK
+m
+
+MORE
+more ~/http/MyWebSite/d04/private/passwd
+
+ERROR
+curl -d login=toto1 -d passwd=titi1 -d submit=OK "http://e1z3r1p12.42.fr:8080/d04/ex01/create.php"
+
+ERROR
+curl -d login=toto2 -d passwd= -d submit=OK "http://e1z3r1p12.42.fr:8080/d04/ex01/create.php"
+
+##############################    EX02    ############################################
+
+RM PASSWD
+rm ~/http/MyWebSite/d04/private/passwd
+
+SET ACCNT
+curl -d login=juan -d passwd=Everest8000 -d submit=OK "http://e1z3r1p12.42.fr:8080/d04/ex01/create.php"
+OK
+
+CHANGE PASS CORRECT
+curl -d login=juan -d oldpw=Everest8000 -d newpw=Aconcagua6000 -d submit=OK "http://e1z3r1p12.42.fr:8080/d04/ex02/modif.php"
+OK
+
+MORE
+more ~/http/MyWebSite/d04/private/passwd
+
+CHANGE PASS WRONG
+curl -d login=juan -d oldpw=Everest8000 -d newpw=Aconcagua6000 -d submit=OK "http://e1z3r1p12.42.fr:8080/d04/ex02/modif.php"
+ERROR
+
+CHANGE PASS WRONG
+curl -d login=juan -d oldpw=Aconcagua6000 -d newpw= -d submit=OK "http://e1z3r1p12.42.fr:8080/d04/ex02/modif.php"
+ERROR
+
+CHANGE PASS CORRECT
+curl -d login=juan -d oldpw=Aconcagua6000 -d newpw=MontBlanc4000 -d submit=OK "http://e1z3r1p12.42.fr:8080/d04/ex02/modif.php"
+OK
+
+http://e1z3r1p12.42.fr:8080/d04/ex02/index.html
+
+##############################    EX03    ############################################
+
+RM PASSWD
+rm ~/http/MyWebSite/d04/private/passwd
+
+CREATE
+curl -d login=toto -d passwd=titi -d submit=OK "http://e1z3r1p12.42.fr:8080/d04/ex01/create.php"
+OK
+
+LOGIN
+curl -c cook.txt "http://e1z3r1p12.42.fr:8080/d04/ex03/login.php?login=toto&passwd=titi"
+OK
+
+SHOW USER
+curl -b cook.txt "http://e1z3r1p12.42.fr:8080/d04/ex03/whoami.php"
+toto
+
+LOGOUT
+curl -b cook.txt "http://e1z3r1p12.42.fr:8080/d04/ex03/logout.php"
+
+SHOW USER ERROR
+curl -b cook.txt "http://e1z3r1p12.42.fr:8080/d04/ex03/whoami.php"ERROR
+
+##############################    EX04    ############################################
+
+http://e1z3r1p12.42.fr:8080/d04/ex04/index.html
+
+RM CHAT
+rm ~/http/MyWebSite/d04/private/chat
+
+CREATE 1
+curl -d login=user1 -d passwd=pass1 -d submit=OK "http://e1z3r1p12.42.fr:8080/d04/ex04/create.php"
+OK
+
+CREATE 2
+curl -d login=user2 -d passwd=pass2 -d submit=OK "http://e1z3r1p12.42.fr:8080/d04/ex04/create.php"
+OK
+
+LOGIN 1
+curl -c user1.txt -d login=user1 -d passwd=pass1 "http://e1z3r1p12.42.fr:8080/d04/ex04/login.php"
+
+SPEAK 1
+curl -b user1.txt -d submit=OK -d msg=Bonjours "http://e1z3r1p12.42.fr:8080/d04/ex04/speak.php"
+
+LOGOUT 1
+curl -b user1.txt -c user1.txt "http://e1z3r1p12.42.fr:8080/d04/ex04/logout.php"
+
+SPEAK 1
+curl -b user1.txt -d submit=OK -d msg=Bonjours "http://e1z3r1p12.42.fr:8080/d04/ex04/speak.php"
+ERROR
+
+LOGIN 2
+curl -c user1.txt -d login=user2 -d passwd=pass2 "http://e1z3r1p12.42.fr:8080/d04/ex04/login.php"
+
+SPEAK 2
+curl -b user2.txt -d submit=OK -d msg=Hello "http://e1z3r1p12.42.fr:8080/d04/ex04/speak.php"
+
+MORE
+more ~/http/MyWebSite/d04/private/chat
+
+SHOW CHAT
+curl -b user2.txt "http://e1z3r1p12.42.fr:8080/d04/ex04/chat.php"
+CHAT...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,176 @@
+-------------------------------------------------------
+RUNNING MYSQL
+-------------------------------------------------------
+
+export PATH=$PATH:/usr/local/mysql/bin
+
+> mysql -u root -p
+> root
+
+-------------------------------------------------------
+VIDEO NOTES
+-------------------------------------------------------
+
+show databases;
+
+use mysql;
+
+show tables;
+
+**selecting, inserting, updating, removing from table or database**
+----------------------------------------------------------------
+
+SELECT * from Users;
+SELECT login from Users;
+SELECT login, login from Users;
+DESCRIBE product;
+
+SELECT id, name from product;
+
+SELECT id, name from product limit 2;
+SELECT id, name FROM product LIMIT 2;
+
+SELECT id, name FROM product ORDER BY name LIMIT 2;
+SELECT id, name FROM product ORDER BY name DESC LIMIT 2;
+
+SELECT id, name, price FROM product ORDER BY price;
+
+SELECT id, name, price FROM product WHERE price > 10 ORDER BY price;
+
+SELECT count(*) FROM product;
+SELECT max(price) FROM product;
+
+SELECT name FROM product INNER JOIN Users ON product.price = Users.price WHERE Users.price = 25;
+
+SELECT count(*), price FROM product GROUP BY price;
+
+--------------------------------------------------------------------------------
+
+DELETE from Users WHERE login = "luis";
+
+INSERT INTO Users (id, login, passwd) VALUES ("1", "Julian", "julian");
+
+UPDATE Users SET id = "2" WHERE login = "Julian";
+
+** create a table **
+---------------------------------------------------------------------------------
+
+CREATE TABLE Mountain (name VARCHAR(255), id INT PRIMARY KEY AUTO_INCREMENT);
+
+---------------------------------------------------------------------------------
+
+* other keywords: UNION, DROP.
+* things that will make the request complicated and bigger. 
+
+---------------------------------------------------------------------------------- 
+ADD 42TABLES TO MY DATABASE
+-------------------------------------------------------------------------------------
+
+root:
+/usr/local/mysql-8.0.15-macos10.14-x86_64/data
+
+not worked:
+> mysql -u username -p  db_lusanche < ~/Desktop/resources05/base-student.sql
+
+worked:
+> mysql db_name < script.sql > output.tab
+
+-------------------------------------------- 
+PRACTICE
+-------------------------------------------------------------------------------------
+
+CREATE TABLE user_card (id INT PRIMARY KEY AUTO_INCREMENT NOT NULL, last_name VARCHAR(20) DEFAULT 'foo' NOT NULL, birthdate DATE NOT NULL);
+
+INSERT INTO user_card (last_name, birthdate) VALUES ("fz1", "2020-08-20"), ("ez1", "2019-07-19"), ("dz1", "2018-06-18"), ("cz1", "2017-05-17"), ("bb1", "2016-04-16"), ("ap15", "2015-03-15"), ("ao14", "2014-02-14"), ("an13", "2013-01-13"), ("am12", "2012-12-12"), ("al11", "2011-11-11"), ("ak10", "2010-10-10"), ("aj9", "2009-09-09"), ("ai8xxxxxxx", "2008-08-08"), ("ah7", "2007-07-07"), ("ag6", "2006-06-06"), ("ae5xxxxxxx", "2005-05-05"), ("ad4", "2004-04-04"), ("ac3", "2003-03-03"), ("ab2", "2002-02-02"), ("aa1", "2001-01-01");
+
+-------------------------------------------- 
+EXERCISES PROCESS
+-------------------------------------------------------------------------------------
+
+CREATE DATABASE db_lusanche;
+
+CREATE TABLE ft_table (id INT PRIMARY KEY AUTO_INCREMENT NOT NULL, login VARCHAR(8) DEFAULT 'toto' NOT NULL, groupe ENUM('staff', 'student', 'other') NOT NULL, creation_date DATE NOT NULL);
+
+INSERT INTO ft_table (login, groupe, creation_date) VALUES ("loki", "staff", "2013-05-01"), ("scadoux", "student", "2014-01-01"), ("chap", "staff", "2011-04-27"), ("bambou", "staff", "2014-03-01"), ("fantomet", "staff", "2010-04-03");
+
+INSERT INTO ft_table (login, creation_date, groupe) SELECT last_name AS login, birthdate AS creation_date "other" AS groupe FROM user_card WHERE last_name LIKE "%a%" AND LENGTH(last_name) < 9 ORDER BY last_name ASC LIMIT 0, 10;
+
+INSERT INTO ft_table (login, creation_date, groupe) SELECT last_name, birthdate, "other" FROM user_card WHERE last_name LIKE "%a%" AND LENGTH(last_name) < 9 ORDER BY last_name ASC LIMIT 10;
+
+UPDATE ft_table SET creation_date = DATE_ADD(creation_date, INTERVAL 20 YEAR) WHERE id > 5;
+
+DELETE from ft_table WHERE group != "other";
+DELETE FROM ft_table WHERE id < 6;
+
+SELECT title, summary FROM film WHERE LOWER(summary) LIKE "%vincent%" ORDER BY id_film ASC;
+SELECT title, summary FROM film WHERE title LIKE "%42%" OR summary LIKE "%42%" ORDER BY duration ASC;
+
+SELECT last_name, first_name, DATE(birthdate) AS "birthdate" FROM user_card WHERE YEAR(birthdate) = "1989" ORDER BY last_name ASC;
+
+SELECT count(*) AS "nb short-films" FROM film WHERE duration <= 42; 
+
+SELECT title AS "Title", summary AS "Summary", prod_year FROM film INNER JOIN genre ON film.id_genre = genre.id_genre WHERE genre.name = "erotic" ORDER BY prod_year DESC; 
+
+SELECT UPPER(user_card.last_name) AS "NAME", user_card.first_name, subscription.price FROM user_card INNER JOIN member ON user_card.id_user = member.id_member INNER JOIN subscription ON member.id_member = subscription.id_sub WHERE subscription.price > 42 ORDER BY user_card.last_name, user_card.first_name ASC;
+
+SELECT last_name, first_name FROM user_card WHERE last_name LIKE "%-%" OR first_name LIKE "%-%" ORDER BY last_name ASC, first_name ASC;
+
+SELECT ROUND(AVG(nb seats)) AS "average" FROM cinema;
+
+SELECT floor_number AS "floor", SUM(nb_seats) AS "seats" FROM cinema GROUP BY floor_number ORDER BY SUM(nb_seats) DESC;
+
+SELECT REVERSE(SUBSTRING(phone_number, 2)) AS "rebmunenohp" FROM distrib WHERE phone_number LIKE "05%";
+
+SELECT COUNT(*) AS "movies" FROM member_history WHERE DATE(date) BETWEEN "2006-10-30" AND "2007-07-27" OR (MONTH(date) = 12 AND DAY(date) = 24);
+
+SELECT COUNT(*) AS "movies" FROM member_history WHERE DATE(date) BETWEEN "1999-02-15" AND "1999-03-01" OR (MONTH(date) = 12 AND DAY(date) = 24);
+
+SELECT COUNT(*) AS "nb susc", FLOOR(AVG(price)) AS "av susc", MOD(SUM(duration_sub), 42) as "ft" FROM subscription;
+
+SELECT name FROM distrib WHERE id_distrib = 42 OR id_distrib BETWEEN 62 AND 69 OR id_distrib = 71 OR id_distrib BETWEEN 88 AND 90 OR LOWER(name) LIKE "%y%y%" LIMIT 2, 5;
+
+SELECT DATEDIFF(MAX(date), MIN(date)) AS 'uptime' FROM member_history GROUP BY id_film;
+
+SELECT film.id_genre AS "id genre", genre.name AS "name genre", film.id_distrib AS "id distrib", distrib.name AS "name distrib", film.title AS "title film" FROM film LEFT JOIN genre ON genre.id_genre = film.id_genre LEFT JOIN distrib ON distrib.id_distrib = film.id_distrib WHERE film.id_genre BETWEEN 4 AND 8;
+
+
+SELECT MD5(REPLACE(CONCAT(phone_number, "42"), "7", "9")) AS "ft5" FROM distrib WHERE id_distrib = 84;
+
+----------------------------------------------------------------------------------------------------
+ANSWERS SUBMITTED
+----------------------------------------------------------------------------------------------------
+
+CREATE DATABASE db_lusanche;
+CREATE TABLE ft_table (id INT PRIMARY KEY AUTO_INCREMENT NOT NULL, login VARCHAR(8) DEFAULT 'toto' NOT NULL, groupe ENUM('staff', 'student', 'other') NOT NULL, creation_date DATE NOT NULL);
+INSERT INTO ft_table (login, groupe, creation_date) VALUES ("loki", "staff", "2013-05-01"), ("scadoux", "student", "2014-01-01"), ("chap", "staff", "2011-04-27"), ("bambou", "staff", "2014-03-01"), ("fantomet", "staff", "2010-04-03");
+INSERT INTO ft_table (login, creation_date, groupe) SELECT last_name, birthdate, "other" FROM user_card WHERE last_name LIKE "%a%" AND LENGTH(last_name) < 9 ORDER BY last_name ASC LIMIT 10;
+UPDATE ft_table SET creation_date = DATE_ADD(creation_date, INTERVAL 20 YEAR) WHERE id > 5;
+DELETE FROM ft_table WHERE id < 6;
+SELECT title, summary FROM film WHERE LOWER(summary) LIKE "%vincent%" ORDER BY id_film ASC;
+SELECT title, summary FROM film WHERE title LIKE "%42%" OR summary LIKE "%42%" ORDER BY duration ASC;
+SELECT last_name, first_name, DATE(birthdate) AS "birthdate" FROM user_card WHERE YEAR(birthdate) = "1989" ORDER BY last_name ASC;
+SELECT count(*) AS "nb short-films" FROM film WHERE duration <= 42;
+SELECT title AS "Title", summary AS "Summary", prod_year FROM film INNER JOIN genre ON film.id_genre = genre.id_genre WHERE genre.name = "erotic" ORDER BY prod_year DESC;
+SELECT UPPER(user_card.last_name) AS "NAME", user_card.first_name, subscription.price FROM user_card INNER JOIN member ON user_card.id_user = member.id_member INNER JOIN subscription ON member.id_sub = subscription.id_sub WHERE subscription.price > 42 ORDER BY user_card.last_name ASC, user_card.first_name ASC;
+SELECT last_name, first_name FROM user_card WHERE last_name LIKE "%-%" OR first_name LIKE "%-%" ORDER BY last_name ASC, first_name ASC;
+SELECT ROUND(AVG(nb_seats)) AS "average" FROM cinema;
+SELECT floor_number AS "floor", SUM(nb_seats) AS "seats" FROM cinema GROUP BY floor_number ORDER BY SUM(nb_seats) DESC;
+SELECT REVERSE(SUBSTRING(phone_number, 2)) AS "rebmunenohp" FROM distrib WHERE phone_number LIKE "05%";
+SELECT COUNT(*) AS "movies" FROM member_history WHERE DATE(date) BETWEEN "2006-10-30" AND "2007-07-27" OR (MONTH(date) = 12 AND DAY(date) = 24);
+SELECT COUNT(*) AS "nb susc", FLOOR(AVG(price)) AS "av susc", MOD(SUM(duration_sub), 42) as "ft" FROM subscription;
+SELECT name FROM distrib WHERE id_distrib = 42 OR id_distrib BETWEEN 62 AND 69 OR id_distrib = 71 OR id_distrib BETWEEN 88 AND 90 OR LOWER(name) LIKE "%y%y%" LIMIT 2, 5;
+SELECT DATEDIFF(MAX(date), MIN(date)) AS "uptime" FROM member_history GROUP BY id_film;
+SELECT film.id_genre AS "id genre", genre.name AS "name genre", film.id_distrib AS "id distrib", distrib.name AS "name distrib", film.title AS "title film" FROM film LEFT JOIN genre ON genre.id_genre = film.id_genre LEFT JOIN distrib ON distrib.id_distrib = film.id_distrib WHERE film.id_genre BETWEEN 4 AND 8;
+SELECT MD5(REPLACE(CONCAT(phone_number, "42"), "7", "9")) AS "ft5" FROM distrib WHERE id_distrib = 84;
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+~/http/MyWebSite/rush/
+
+Managed Software Center / PAMP
+
+http://e1z3r1p10.42.fr:8080/rush00/index.php
+
+more ~/http/MyWebSite/private/passwd
+
+rm -f ~/http/MyWebSite/private/passwd

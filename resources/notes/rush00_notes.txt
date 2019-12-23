@@ -1,0 +1,18 @@
+~/http/MyWebSite/rush/
+
+Managed Software Center / PAMP
+
+
+
+
+http://e1z3r1p12.42.fr:8080/minipomps/index.php
+
+
+http://e1z3r1p10.42.fr:8080/rush00/index.php
+
+
+
+
+more ~/http/MyWebSite/private/passwd
+
+rm -f ~/http/MyWebSite/private/passwd

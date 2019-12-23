@@ -1,0 +1,162 @@
+Videos
+
+------------------------------------------------------------------------------
+
+
+Javascript
+is a language that executes on the client side, contrary to PHP.
+we can put javascript code as src, inline and in the end:
+
+<html>
+<head>
+
+<script src="test.js"></script>
+
+</head>
+<body>
+
+<span onclick="alert('toto');">Hello world</span>
+
+<script>alert('tata');</script>
+
+</body>
+</html>
+
+console -----------------------------------------------------------------------------
+
+console.log('hello world');
+
+variables ---------------------------------------------------------------------------
+
+var test;
+test = 42;
+console.debug(42);
+
+functions ---------------------------------------------------------------------------
+
+function my_func(){
+var test;
+test = 'bonjour';
+console.debug(test);
+} 
+my_func();
+
+loops --------------------------------------------------------------------------------
+
+var tab = new Array ('tomate', 'salade', 'pomme de terre');
+for (t in table){
+console.log(t); 	 <-- print t (0, 1 ,2)
+console.log(tab[t]);     <-- print value of element index t in tab ('tomate' '...' '...')
+}
+
+-------------------------------------------------------------------------------
+
+DOM - Document Object Modeling
+
+var my_element = document.getElementById('my_id');
+
+my_element.getAttribute('id');
+
+var new_element = document.createElement('span');
+
+new_element.setAttribute('style', 'background: red;');
+
+var_text = document.createTextNode('hello world');
+
+new_element.appendChild(var_text);
+
+my_element.appendChild(new_element);
+
+my_element.removeChild(new_element);
+
+----------------------------------------------------------------------------------
+
+AJAX - Asynchronous JavaScript and XML
+
+is not a programming language, is a technique for accessing web servers from a web page.
+
+AJAX allows web pages to be updated asynchronously by exchanging data with a web server behind the scenes. This means that it is possible to update parts of a web page, without reloading the whole page.
+
+there are two ways to execute code: synchronic and asynchronic.
+
+----------------------------------------------
+
+JQuery is javaScript library
+
+The jQuery library is a single JavaScript file, and you reference it with the HTML tag:
+<script src="jquery-3.4.1.min.js"></script>
+
+Basic syntax is: $(selector).action()
+
+A $ sign to define/access jQuery
+A (selector) to "query (or find)" HTML elements
+A jQuery action() to be performed on the element(s)
+
+All the different visitors' actions that a web page can respond to are called events:
+$(document).ready()
+click()
+dblclick()
+mouseenter()
+mouseleave()
+on()
+etc..
+
+The $(document).ready() method allows us to execute a function when the document is fully loaded.
+
+
+examples:
+
+$(document).ready(function...
+
+$("#my_id").click(function....
+
+$.get("test.php?test=ok", function...
+
+--------------------------------------------------------------------------------------
+
+php -S localhost:8800  
+
+localhost:8800/     <-----------  goinfre/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,101 @@
+Videos
+
+------------------------------------------------------------------------------
+
+vogsphere@vgs.42.us.org:intra/2019/activities/42_piscine_c_formation_piscine_php_day_07/lusanche
+vogsphere@vgs.42.us.org:intra/2019/activities/42_piscine_c_formation_piscine_php_day_08/lusanche
+
+
+//traits
+//refine the concept of inheritance
+
+reflexivity API in PHP - serialization
+
+-----------------------------------------------------------------------------------------------------
+
+//traits
+//very similar to inheritance, but with a new syntax, and in a horizontal point of view 
+
+//serialize in Json or HTML
+
+Class NameParent
+Class NameChild extend NameParent
+
+//will change to:
+
+trait traitName
+use traitName;
+
+-----------------------------------------------------------------------------------------------------
+
+//multiple traits on class
+
+trait traitName
+use traitName1, traitName2;
+
+//to give priority in case of methods with same name in multiple traits
+
+trait traitName
+use traitName1, traitName2
+{
+    traitName2 :: serialize insteadof traitName1;	
+}
+
+//to rename methods, give alias
+
+trait traitName
+use traitName1, traitName2
+{
+    methodName as methodAlias;	
+}
+
+--------------------------------------------------------------------------------------------------------
+
+traits and abstract methods
+
+//traits share characteristics with classes like abstract methods
+
+all the traits that use a trait with an abstract method will have to, themselves, define that method
+
+--------------------------------------------------------------------------------------------------------
+
+final
+
+abstract Class = forbid intantiate the class.
+abstract method = force to the child classes to not only declare, but to define this method.
+
+final Class = forbid the class to be inherited by any other.
+final method = forbid all inheriting class to redefine this method.
+
+--------------------------------------------------------------------------------------------------------
+
+exceptions
+
+is a class for handling errors, will allow to visualize the error with coherent info.
+
+exceptions are introduced by blocks: try and catch.
+
+the standard exception class (in php documentation) use final methods to forbids to redefine this methods.
+
+exception classes should have similar behavior as the standard exception class (in php documentation).
+
+php documentation offers different standard exception classes, for different types of errors.
+
+--------------------------------------------------------------------------------------------------------
+
+PHP's reflection API
+
+allow a language to see what is included in classes like:
+the name, the constants, the attributes and the methods.
+
+ReflectionClass(className)
+use the name of a class to have access to the information of that class
+
+ReflectionObject($instanceVarName)
+use an instance to have access to the information of a class
+
+the use of reflexivity is to take an object, recover everything that is inside, recover all the class, know how it is constructed, being able to stock it in a database, be able to send it on the network, and from this information recreate a class, recreate instances of this class etc, and be able to send data. This is a behavior typically found in video games.
+
+--------------------------------------------------------------------------------------------------------
+
+

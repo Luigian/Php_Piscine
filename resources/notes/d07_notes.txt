@@ -1,0 +1,67 @@
+Videos
+
+------------------------------------------------------------------------------
+Redéfinition de méthode (inheritance relationship)
+
+class parent
+class child - overwrite class parent
+parent::
+
+the parent class is a generalized version of the child class
+the child class is a specified version of the parent class
+
+-------------------------------------------------------------------------------
+
+protected
+not visible from outside the class but visible from a child class
+
+--------------------------------------------------------------------------------
+
+self = actual class
+$this = static methods
+
+----------------------------------------------------------------------------------
+
+static: at compilation
+dynamic: at execution
+
+-----------------------------------------------------------------------------------
+
+abstract class
+cant be instanciated
+
+-----------------------------------------------------------------------------------
+
+abstract methods
+in parent class wait to be defined in the child method
+
+allow to create parent classes that not contain code, and will contain an ensemble of methods that will implement child classes.
+
+--------------------------------------------------------------------------------------
+
+abstract classes = interface
+
+interface INameClass
+
+chils class extends --> implements INameClass
+
+
+a child class *extend* an abstract parent class = a class *implement* an *interface*
+
+An object with precise behavior defined by the writing of an interface that will codify a certain number of methods that will be implemented by the classes that implement our interface.
+
+Which are the methods that will be possible to call so that the object does what is asked.
+
+API
+Application Programming Interface
+what is the interface of an application to be able to communicate with.
+
+---------------------------------------------------------------------------------------
+
+Inheritance
+evaluation vertical between the different classes so to be able to have general versions of certain behaviors in specialized versions, to be able to override certain behaviors and so to redefine being able to work on the visibility of our data in our codes with the key word "protected". Be able to know if the code will be selected static or dynamic. The nothing of abstract classes and classe non instantiable, to define basic behaviors but that do not exist in themselves, and the abstract methods, interfaces.
+
+research, experiment, write some code, try to understand.
+
+
+
