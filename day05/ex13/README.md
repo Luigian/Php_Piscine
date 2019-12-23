@@ -4,7 +4,7 @@
 Create the request to display in a column named ’average’ the average number (rounded up to the nearest unit) of seats in each cinema.
 
 ## Installation
-`mysql db_lusanche < day05/base-student.sql > output.tab;` | add 'cinema' table to our database.
+`mysql db_lusanche < day05/base-student.sql > output.tab;` | add tables to database.
 
 `mysql` | connect to local MySQL server.
 
