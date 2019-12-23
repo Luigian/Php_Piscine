@@ -1,4 +1,4 @@
-# Piscine_Php / day02 / ex02 : The magnifying glass
+# Php_Piscine / day02 / ex02 : The magnifying glass
 
 ## Description
 This program takes a html document as argument and convert all the links to upper case.
