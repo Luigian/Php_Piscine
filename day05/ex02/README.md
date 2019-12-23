@@ -1,4 +1,4 @@
-# Piscine_Php / day05 / 02 : Mass data
+# Piscine_Php / day05 / ex02 : Mass data
 
 ## Description
 Create the request for filling the table from ex01 with specific information.
