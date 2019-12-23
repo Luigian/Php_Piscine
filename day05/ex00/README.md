@@ -7,11 +7,7 @@ The objective was to write the SQL request needed to create a database named aft
 `mysql` | connect to local MySQL server.
 
 ## Usage
-`curl -c [user cookie file path] -d login=[name] -d passwd=[password] 'http://localhost:8080/day04/ex04/login.php'` | Executes login.php and open the chat window.
-
-`curl -b [user cookie file path] -d submit=OK -d msg=[message] 'http://localhost:8080/day04/ex04/speak.php'` | Executes speak.php and save the message in the cookie file.
-
-`curl -b [user cookie file path] 'http://localhost:8080/day04/ex04/chat.php'` | Executes chat.php and display the messages contained in the cookie file.
+`mysql> source day05/ex00/ex00.sql;` | executes the request.
 
 ## Preview
-<img src="../../resources/images/chat.png" width="1200">
+<img src="../../resources/images/bocal.png" width="1200">
