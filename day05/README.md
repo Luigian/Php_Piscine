@@ -6,5 +6,23 @@ Is the start of the second week and now we were writing more than twenty differe
 
 <img src="../resources/images/bocal.png" width="500">
 <img src="../resources/images/table.png" width="500">
-<img src="../resources/images/.png" width="500">
-<img src="../resources/images/.png" width="500">
+<img src="../resources/images/mass.png" width="500">
+<img src="../resources/images/copy.png" width="500">
+<img src="../resources/images/update.png" width="500">
+<img src="../resources/images/cleaning.png" width="500">
+<img src="../resources/images/vincent.png" width="500">
+<img src="../resources/images/everywhere.png" width="500">
+<img src="../resources/images/old.png" width="500">
+<img src="../resources/images/short.png" width="500">
+<img src="../resources/images/good.png" width="500">
+<img src="../resources/images/money.png" width="500">
+<img src="../resources/images/things.png" width="500">
+<img src="../resources/images/maths.png" width="500">
+<img src="../resources/images/again.png" width="500">
+<img src="../resources/images/phone.png" width="500">
+<img src="../resources/images/christmas.png" width="500">
+<img src="../resources/images/come.png" width="500">
+<img src="../resources/images/limits.png" width="500">
+<img src="../resources/images/future.png" width="500">
+<img src="../resources/images/total.png" width="500">
+<img src="../resources/images/md5.png" width="500">
