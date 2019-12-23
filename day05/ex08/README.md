@@ -4,7 +4,7 @@
 Create the request to display the last_name, first_name and birthdate (only the date, not the time) from the table user_card in a column named ’birthdate’ of everyone born in 1989, ordered alphabetically by last_name.
 
 ## Installation
-`mysql db_lusanche < day05/base-student.sql > output.tab;` | add 'film' table to our database.
+`mysql db_lusanche < day05/base-student.sql > output.tab;` | add 'user_card' table to our database.
 
 `mysql` | connect to local MySQL server.
 
@@ -12,4 +12,4 @@ Create the request to display the last_name, first_name and birthdate (only the 
 `mysql> source day05/ex08/ex08.sql;` | executes the request.
 
 ## Preview
-<img src="../../resources/images/vincent.png" width="1200">
+<img src="../../resources/images/old.png" width="1200">
