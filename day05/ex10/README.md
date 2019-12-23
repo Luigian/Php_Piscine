@@ -1,4 +1,4 @@
-# Piscine_Php / day05 / ex10 : Aren’t we good here?
+# Php_Piscine / day05 / ex10 : Aren’t we good here?
 
 ## Description
 Create the request to display the title in a ’Title’ column, the summary in a ’Summary’ column and the prod_year of every ’erotic’ movie ordered by descending production year.
