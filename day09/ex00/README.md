@@ -13,4 +13,4 @@ The gol for this exercise was to create in HTML/CSS a div 200px by 200px with a 
 
 ## Preview
 
-<img src="../../resources/images/balloon.png" width="500">
+<kbd><img src="../../resources/images/balloon.png" width="500"></kbd>
