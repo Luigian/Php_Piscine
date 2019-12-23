@@ -4,7 +4,7 @@
 Create the request to display the number of ’short films’ (with a duration smaller or equal to 42) in a column named ’nb_short-films’.
 
 ## Installation
-`mysql db_lusanche < day05/base-student.sql > output.tab;` | add 'film' table to our database.
+`mysql db_lusanche < day05/base-student.sql > output.tab;` | add tables to database.
 
 `mysql` | connect to local MySQL server.
 
