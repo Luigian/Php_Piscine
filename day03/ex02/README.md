@@ -1,4 +1,4 @@
-# Piscine_Php / day03 / ex02 : print_get
+# Php_Piscine / day03 / ex02 : print_get
 
 ## Description
 The goal of this exercise is to create a page named print_get.php that will display all the variables passed in the url.
