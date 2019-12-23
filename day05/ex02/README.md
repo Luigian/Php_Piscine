@@ -1,7 +1,7 @@
 # Piscine_Php / day05 / 02 : Mass data
 
 ## Description
-Write the request for filling the table from ex01 with specific information provided.
+Create the request for filling the table from ex01 with specific information.
 
 ## Installation
 `mysql` | connect to local MySQL server.
