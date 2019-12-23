@@ -1,4 +1,4 @@
-# Piscine_Php / day05 / ex07 : 42 is everywhere!
+# Php_Piscine / day05 / ex07 : 42 is everywhere!
 
 ## Description
 Create the request to display, from 'film' table, the title and summary of all movies containing 42 in their title or summary ordered from the shortest film to the longest.
