@@ -1,4 +1,4 @@
-# Rush 00 - Piscine_Php
+# Rush 00 - Php_Piscine
 
 ### E-commerce
 
