@@ -1,4 +1,4 @@
-# Piscine_Php / day07 / ex03 : Playing house
+# Php_Piscine / day07 / ex03 : Playing house
 
 ## Description
 In this exercise we create a class named House which contains one public method and three abstract methods that will be defined by the child classes to generate a different output (presentation phrase).
