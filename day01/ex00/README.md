@@ -1,4 +1,4 @@
-# Piscine_Php / day01 / ex00
+# Php_Piscine / day01 / ex00
 
 ## Description
 Creating a small program that must greet the world with its famous message.
