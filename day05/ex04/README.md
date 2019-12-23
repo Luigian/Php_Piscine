@@ -1,4 +1,4 @@
-# Piscine_Php / day05 / 01 : ft_table
+# Piscine_Php / day05 / ex04 : Updates pending, please restart
 
 ## Description
 Create a table named ’ft_table’, it will be used to list the students and the staff. The table must contain the following: id, login, group and creation_date.
