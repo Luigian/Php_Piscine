@@ -1,4 +1,4 @@
-# Piscine_Php / day06
+# Php_Piscine / day06
 
 ### PHP - OOP
 
