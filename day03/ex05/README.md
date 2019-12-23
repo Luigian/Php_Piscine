@@ -1,4 +1,4 @@
-# Piscine_Php / day03 / ex05 : read_img
+# Php_Piscine / day03 / ex05 : read_img
 
 ## Description
 The objective of this exercise was to create a page named read_img.php that will return to the browser the file 42.png with the right Content-Type.
