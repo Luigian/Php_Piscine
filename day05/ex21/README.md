@@ -1,4 +1,4 @@
-# Piscine_Php / day05 / ex21 : MD5 ? Not FT5!
+# Php_Piscine / day05 / ex21 : MD5 ? Not FT5!
 
 ## Description
 Create the request to display, in a column named ’ft5’, the phone_number’s MD5 of the distributor with id 84. Before encripting it you’ll add 42 at the end of it and change any 7 into a 9.
