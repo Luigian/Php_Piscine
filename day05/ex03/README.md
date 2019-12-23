@@ -1,4 +1,4 @@
-# Piscine_Php / day05 / ex03 : Copy!
+# Php_Piscine / day05 / ex03 : Copy!
 
 ## Description
 Create the request to fill the table from ex01 using a second table’s data.
