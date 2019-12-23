@@ -1,4 +1,4 @@
-# Piscine_Php / day04 / 03 : Auth
+# Php_Piscine / day04 / 03 : Auth
 
 ## Description
 The objective of this exercise was to create four files: 
