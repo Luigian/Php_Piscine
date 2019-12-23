@@ -1,4 +1,4 @@
-# Piscine_Php / day05 / ex15 : What’s your phone number?
+# Php_Piscine / day05 / ex15 : What’s your phone number?
 
 ## Description
 Create the request to display all the distributors’ phone_number starting with ’05’ by removing the number 0 before the 5 and by reverting the numbers, in a column named ’rebmunenohp’ (ex : 0542842169 -> 961248245).
