@@ -1,4 +1,4 @@
-# Day 07 - Piscine_Php
+# Day 07 - Php_Piscine
 
 ### PHP - OOP
 
