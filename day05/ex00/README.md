@@ -1,10 +1,10 @@
-# Piscine_Php / day04 / 04 : 42chat
+# Piscine_Php / day05 / 00 : db_bocal
 
 ## Description
-The goal of this exercise was to create a multi-user chat, by resuming from our files of prior exercises and adding five new files: index.html, create.html, modif.html, speak.php and chat.php. Speak.php will allow a user to post a message on the chat, and chat.php will allow to display the content of the chat.
+The objective was to write the SQL request needed to create a database named after our login preceded by ’db_’. This database will be used for the next exercises.
 
 ## Installation
-`php -S localhost:8080` | start the development server.
+`mysql` | connect to local MySQL server.
 
 ## Usage
 `curl -c [user cookie file path] -d login=[name] -d passwd=[password] 'http://localhost:8080/day04/ex04/login.php'` | Executes login.php and open the chat window.
