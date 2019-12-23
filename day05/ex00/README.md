@@ -1,4 +1,4 @@
-# Piscine_Php / day05 / 00 : db_bocal
+# Piscine_Php / day05 / ex00 : db_bocal
 
 ## Description
 The objective was to write the SQL request needed to create a database named after our login preceded by ’db_’. This database will be used for the next exercises.
