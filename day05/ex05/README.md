@@ -1,13 +1,13 @@
-# Piscine_Php / day05 / ex04 : Updates pending, please restart
+# Piscine_Php / day05 / ex05 : Little bit of cleaning
 
 ## Description
-Create the request to update the user’s creation_date of ex04 table, by adding 20 years, but only for the users that have an id bigger than 5.
+Create the request to remove the people manually created on ex02, in other words, the 5 first members of the ft_table.
 
 ## Installation
 `mysql` | connect to local MySQL server.
 
 ## Usage
-`mysql> source day05/ex04/ex04.sql;` | executes the request.
+`mysql> source day05/ex05/ex05.sql;` | executes the request.
 
 ## Preview
-<img src="../../resources/images/update.png" width="1200">
+<img src="../../resources/images/cleaning.png" width="1200">
