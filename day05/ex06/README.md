@@ -1,13 +1,15 @@
-# Piscine_Php / day05 / ex05 : Little bit of cleaning
+# Piscine_Php / day05 / ex06 : Where is vinc’ ?
 
 ## Description
-Create the request to remove the people manually created on ex02, in other words, the 5 first members of the ft_table.
+Create the request to display, from the table 'film', the title and summary of all movies containing ’Vincent’ in their summary. The research must be case-insensitive. Order the results by ascending id_film.
 
 ## Installation
+`mysql db_lusanche < day05/base-student.sql > output.tab;` | add 'film' table to our database.
+
 `mysql` | connect to local MySQL server.
 
 ## Usage
-`mysql> source day05/ex05/ex05.sql;` | executes the request.
+`mysql> source day05/ex06/ex06.sql;` | executes the request.
 
 ## Preview
-<img src="../../resources/images/cleaning.png" width="1200">
+<img src="../../resources/images/vincent.png" width="1200">
