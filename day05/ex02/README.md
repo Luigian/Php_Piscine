@@ -1,13 +1,13 @@
-# Piscine_Php / day05 / 01 : ft_table
+# Piscine_Php / day05 / 02 : Mass data
 
 ## Description
-Create a table named ’ft_table’, it will be used to list the students and the staff. The table must contain the following: id, login, group and creation_date.
+Write the request for filling the table from ex01 with specific information provided.
 
 ## Installation
 `mysql` | connect to local MySQL server.
 
 ## Usage
-`mysql> source day05/ex01/ex01.sql;` | executes the request.
+`mysql> source day05/ex02/ex02.sql;` | executes the request.
 
 ## Preview
-<img src="../../resources/images/table.png" width="1200">
+<img src="../../resources/images/mass.png" width="1200">
