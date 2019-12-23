@@ -10,7 +10,7 @@ After the first week of the piscine, we had to -in a weekend– create a mini e-
 `open http://localhost:8080/rush00/index.php` | Open the page in the web browser.
 
 ## Usage
-`Registe'` | Creates new user and password.
+`Register` | Creates new user and password.
 
 `Login` | Start user session.
 
