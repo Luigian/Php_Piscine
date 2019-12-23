@@ -149,36 +149,3 @@ more ~/http/MyWebSite/d04/private/chat
 SHOW CHAT
 curl -b user2.txt "http://e1z3r1p12.42.fr:8080/d04/ex04/chat.php"
 CHAT...
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
