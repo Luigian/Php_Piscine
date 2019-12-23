@@ -2,26 +2,7 @@
 
 # Piscine_Php - 42 School Two Weeks Web Boot Camp 
 
-## Highlights
-
-* This project is about re-building the printf function with most of its functionality by using only other self-built functions based on the C standard library.
-
-* ft_printf writes output to stdout according to a format and returns the number of characters printed or a negative number in case of error.  
-
-* ft_printf is prototyped similarly to printf: `int ft_printf(const char* format, ...)`
-
-* ft_printf is a variadic function wich means that it can print a varying number of arguments of varying types.
-
-* The string `const char* format` is composed by ordinary characters (not %), which are copied unchanged to the output; and conversion specifications introduced by `%` and ended by the type of conversion which must correspond properly to the next argument in the argument list `...`. The following may appear in a conversion sequence: 
-
-  `%[argument][flag][width][precision][length]type`
-  
-* ft_printf is a great opportunity to implement a basic 'dispatcher' in C via the use of an array of function’s pointers. 
-
-## Functions Hierarchy
-<img src="resources/images/pf_funhierarchy.png" width="1000">
-
-## Summary of the Piscine
+## Summary
 
 ### Day 00
 HTML and CSS
@@ -81,36 +62,6 @@ After the first week of the piscine, we had to -in a weekend– create a mini e-
 Awesome Starships Battles II
 
 This is an ambitious project that aims to gather all the tools learned during this boot-camp. This second rush was about remasterizing the game created at day 08, and adding account management, users ranking, chat panel, simultaneously games, scripted games and other cool features alike. 
-
-## Process Logbook
-
-As they say: "The key to a successful ft_printf is a well-structured and good extensible code", so i try to give me the time to understand how the true printf worked to be prepared for the battle and this is the summary of what I did:
-
-* Read the pdf.
-* Read about variadic functions on internet.
-* Read the man: `man 3 stdarg` `man printf` `man 3 printf`.
-* Learn about format conversion specifications for printf.
-* Learn more about data types.
-* Learn about integers lengths: `char`, `short`, `long`, `long long`, `nan`.
-* Learn about floats: single precision, double precision and extended precision. 
-* I made the next table to visualize the last two points:
-<img src="resources/images/pf_lengths_table.png" width="1000">
-
-* I made the following table to help me see, by testing the real printf, how the different types worked with the different combinations of format specifications.
-<img src="resources/images/pf_fmtspecs_table_1.png" width="1000">
-
-* An extension of the previous table with a more concise display was very practical while coding.
-<img src="resources/images/pf_fmtspecs_table_2.png" width="700">
-
-After this, i started to write the code in the following order:
-
-* Storing the format specifications (flags, width, precision, length) in variables of a structure.
-* The functions to print d, i and u.
-* Then the functions to print o, x, X and p.
-* Then the functions to print c, s.
-* The most difficult one for me, the function to print f.
-* Then i worked on big numbers (negatives and positives), zero and null cases.
-* After that, i started with bonuses: \*, j, z, U, e, g, $, ', b and k.
 
 ## Credits
 [*Luis Julian Sanchez Quiros*](https://www.linkedin.com/in/luis-juli%C3%A1n-s%C3%A1nchez-quir%C3%B3s-13bb3b189/)
