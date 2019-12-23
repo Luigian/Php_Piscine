@@ -1,4 +1,4 @@
-# Piscine_Php / day03 / ex04 : raw_text
+# Php_Piscine / day03 / ex04 : raw_text
 
 ## Description
 The objective of this exercise was to create a page named raw_text that will show the same thing on the screen if you look at its source code with curl or its html rendered in Chrome.
