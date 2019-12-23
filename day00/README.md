@@ -1,4 +1,4 @@
-# Piscine_Php / day00
+# Php_Piscine / day00
 
 ### HTML and CSS
 
