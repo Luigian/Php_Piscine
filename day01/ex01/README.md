@@ -1,4 +1,4 @@
-# Piscine_Php / day01 / ex01
+# Php_Piscine / day01 / ex01
 
 ## Description
 Create a program that can display 1000 times the letter X, a newline, and with the constraint that it cannot go over 100 chars.
