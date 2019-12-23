@@ -16,35 +16,35 @@ PHP
 
 From writing the classic "hello world", in this day we started to getting familiar with the PHP syntax by coding some programs to manipulate integers and strings. 
 
-<img src="resources/images/hw.png" width="300">
+<img src="resources/images/hw.png" width="250">
 
 ### Day 02
 PHP
 
 A funny mystery story led us through various exercises to discover a little bit more about php's libraries and helpfull functions to access local and external data.
 
-<img src="resources/images/another_world.png" width="300">
+<img src="resources/images/another_world.png" width="250">
 
 ### Day 03
 PHP - MAMP
 
 After installing our web server with the 42 PAMP tool, or starting the development server (localhost), we wrote php codes to recover users and passwords, save and delete cookies, read and display images in the browser window and validate member access to web pages.
 
-<img src="resources/images/get.png" width="300">
+<img src="resources/images/get.png" width="250">
 
 ### Day 04
 PHP - MAMP
 
 In this day we created different pages to manage a user session. The exercises were about creating an account, login (authorization via a self-build function), changing the password, and be able to save in a file the users data to create a basic multi-user chat page.
 
-<img src="resources/images/create.png" width="300">
+<img src="resources/images/create.png" width="250">
 
 ### Day 05
 SQL
 
 Is the start of the second week and now we were writing more than twenty different commands to work with databases using SQL language. The exercises covered creation of databases and tables, inserting, updating, and selection of data. By combining some functions we were able to display specific and requiered information from a films database.
 
-<img src="resources/images/vincent.png" width="300">
+<img src="resources/images/vincent.png" width="250">
 
 ### Day 06
 PHP - OOP
@@ -58,14 +58,14 @@ PHP - OOP
 
 A day dedicated to Game of Thrones, allowed us to better understand the logic of object-oriented programming, particularly inheritance (parent and child classes), abstract classes, abstract methods and interfaces, in a really fun way.
 
-<img src="resources/images/house.png" width="300">
+<img src="resources/images/house.png" width="250">
 
 ### Day 08
 Awesome Starships Battles I
 
 This day we covered the utilisation of traits (inheritance but in an horizontal point of view), final classes, exceptions (handling errors), reflection classes and reflection objects (recover and manipulate the data inside). The exercise goal was to create a game called "Awesome Starships Battles", a 2 players game which goal is to control a fleet of spaceships and eliminate the adversary fleet first. The composition of this game was very convenient to put togheter PHP-OOP, HTML and CSS.
 
-<img src="resources/images/starships.png" width="250">
+<img src="resources/images/starships.png" width="200">
 
 ### Day 09
 JavaScript and JQuery
