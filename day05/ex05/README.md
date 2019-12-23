@@ -1,4 +1,4 @@
-# Piscine_Php / day05 / ex05 : Little bit of cleaning
+# Php_Piscine / day05 / ex05 : Little bit of cleaning
 
 ## Description
 Create the request to remove the people manually added on ex02 (the 5 first members) in the ft_table.
