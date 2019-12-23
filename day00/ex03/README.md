@@ -1,4 +1,4 @@
-# Piscine_Php / day00 / ex03 : The shrunk agent
+# Php_Piscine / day00 / ex03 : The shrunk agent
 
 ## Description
 Copying the periodic table from the ex01 and make it responsive to the browser resizing. The periodic table must shrink, the fonts as well.
