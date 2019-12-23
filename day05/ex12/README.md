@@ -4,7 +4,7 @@
 Create the request to display the last_name and first_name of every member with a double-barrelled last_name and/or first_name, alphabetically ordered by last_name followed by first_name.
 
 ## Installation
-`mysql db_lusanche < day05/base-student.sql > output.tab;` | add 'user_card' table to our database.
+`mysql db_lusanche < day05/base-student.sql > output.tab;` | add tables to database.
 
 `mysql` | connect to local MySQL server.
 
