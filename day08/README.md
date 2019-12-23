@@ -1,4 +1,4 @@
-# Day 08 - Piscine_Php
+# Day 08 - Php_Piscine
 
 ### Awesome Starships Battles I
 
