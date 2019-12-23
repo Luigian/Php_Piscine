@@ -1,4 +1,4 @@
-# Piscine_Php / day00 / ex04 : SNCF Sandwich
+# Php_Piscine / day00 / ex04 : SNCF Sandwich
 
 ## Description
 Create a SNCF (French National Railway Company) drop-down menu nice to look at.
