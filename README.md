@@ -51,7 +51,7 @@ PHP - OOP
 
 This day we learned about how to implement object-oriented programming (OOP) in PHP. The excercises guided us to create a small program to display 3D graphics. Each class covered one graphic aspect: color, dots, lines, matrixes, camera and texture. We learned about attributes and methods (static, dynamic, public and private), instances and proper class documentation.
 
-<img src="resources/images/matrix_1.png" width="300">
+<img src="resources/images/matrix_1.png" width="250">
 
 ### Day 07
 PHP - OOP
@@ -65,7 +65,7 @@ Awesome Starships Battles I
 
 This day we covered the utilisation of traits (inheritance but in an horizontal point of view), final classes, exceptions (handling errors), reflection classes and reflection objects (recover and manipulate the data inside). The exercise goal was to create a game called "Awesome Starships Battles", a 2 players game which goal is to control a fleet of spaceships and eliminate the adversary fleet first. The composition of this game was very convenient to put togheter PHP-OOP, HTML and CSS.
 
-<img src="resources/images/starships.png" width="200">
+<img src="resources/images/starships.png" width="220">
 
 ### Day 09
 JavaScript and JQuery
