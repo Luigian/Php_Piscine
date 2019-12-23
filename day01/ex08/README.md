@@ -1,4 +1,4 @@
-# Piscine_Php / day01 / ex08
+# Php_Piscine / day01 / ex08
 
 ## Description
 Create a little function that will reply true or false according to whether the array passed as argument is sorted or not.
