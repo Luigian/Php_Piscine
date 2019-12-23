@@ -7,4 +7,8 @@ This day we covered the utilisation of traits (inheritance but in an horizontal 
 ## Installation
 `open game.html` | Open the page in the web browser.
 
+## Usage
+`` | .
+
+## Preview
 <img src="../resources/images/starships.png" width="1000">
