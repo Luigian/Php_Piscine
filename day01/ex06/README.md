@@ -1,4 +1,4 @@
-# Piscine_Php / day01 / ex06
+# Php_Piscine / day01 / ex06
 
 ## Description
 The sum of words contained in all the arguments (except the name of the program itself) are splited, sorted and displayed.
