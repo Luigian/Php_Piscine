@@ -1,4 +1,4 @@
-# Piscine_Php / day07 / ex01 : Words of honor
+# Php_Piscine / day07 / ex01 : Words of honor
 
 ## Description
 This is the Greyjoy class which is the parent class of the provided Euron class, and contains an attribute: the family motto.
