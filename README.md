@@ -1,6 +1,6 @@
 <img src="resources/images/php_banner.png" width="1200">
 
-# Php_Piscine - 42 School Web Boot Camp 
+# Php_Piscine - Web Boot Camp from 42 School 
 
 ## Summary
 
