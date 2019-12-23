@@ -1,4 +1,4 @@
-# Piscine_Php / day06 / ex03 : The Matrix Class
+# Php_Piscine / day06 / ex03 : The Matrix Class
 
 ## Description
 With this class, we will be able to operate transformations, such as apply a scale change, a translation or a rotation to one or several vertices.
