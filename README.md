@@ -58,6 +58,8 @@ PHP - OOP
 
 A day dedicated to Game of Thrones, allowed us to better understand the logic of object-oriented programming, particularly inheritance (parent and child classes), abstract classes, abstract methods and interfaces, in a really fun way.
 
+<img src="resources/images/house.png" width="200">
+
 ### Day 08
 Awesome Starships Battles I
 
