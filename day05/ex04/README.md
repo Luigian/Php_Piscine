@@ -1,13 +1,15 @@
-# Piscine_Php / day05 / 01 : ft_table
+# Piscine_Php / day05 / ex03 : Copy!
 
 ## Description
-Create a table named ’ft_table’, it will be used to list the students and the staff. The table must contain the following: id, login, group and creation_date.
+Create the request to fill the table from ex01 using a second table’s data.
 
 ## Installation
+`mysql db_lusanche < day05/base-student.sql > output.tab;` | add the second table to our database.
+
 `mysql` | connect to local MySQL server.
 
 ## Usage
-`mysql> source day05/ex01/ex01.sql;` | executes the request.
+`mysql> source day05/ex03/ex03.sql;` | executes the request.
 
 ## Preview
-<img src="../../resources/images/table.png" width="1200">
+<img src="../../resources/images/copy.png" width="1200">
