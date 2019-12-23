@@ -1,4 +1,4 @@
-# Day 05 - Piscine_Php
+# Day 05 - Php_Piscine
 
 ### SQL
 
