@@ -1,4 +1,4 @@
-# Piscine_Php / day05 / ex09 : Short films
+# Php_Piscine / day05 / ex09 : Short films
 
 ## Description
 Create the request to display the number of ’short films’ (with a duration smaller or equal to 42) in a column named ’nb_short-films’.
