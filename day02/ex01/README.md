@@ -1,4 +1,4 @@
-# Piscine_Php / day02 / ex01 : One more time
+# Php_Piscine / day02 / ex01 : One more time
 
 ## Description
 This program takes a well formatted date (in french) and convert in time stamp. The unix time stamp is a way to track time as a running total of seconds. This count starts at the Unix Epoch on January 1st, 1970 at UTC. Therefore, the unix time stamp is merely the number of seconds between a particular date and the Unix Epoch.
