@@ -1,4 +1,4 @@
-# Piscine_Php / day05 / ex13 : Are you good at maths?
+# Php_Piscine / day05 / ex13 : Are you good at maths?
 
 ## Description
 Create the request to display in a column named ’average’ the average number (rounded up to the nearest unit) of seats in each cinema.
