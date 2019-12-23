@@ -7,7 +7,7 @@ Create a table named ’ft_table’, it will be used to list the students and th
 `mysql` | connect to local MySQL server.
 
 ## Usage
-`mysql> source day05/ex00/ex01.sql;` | executes the request.
+`mysql> source day05/ex01/ex01.sql;` | executes the request.
 
 ## Preview
 <img src="../../resources/images/table.png" width="1200">
