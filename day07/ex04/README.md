@@ -1,4 +1,4 @@
-# Piscine_Php / day07 / ex04 : His sister ? Seriously
+# Php_Piscine / day07 / ex04 : His sister ? Seriously
 
 ## Description
 In this bizarre exercise we use the parent class Lannister and two child classes: Jaime and Tyrion, to set the conditions that will determine if the mentioned child classes will perpetuate intimate relations with others given characters of Game of Thrones... yes.
