@@ -1,4 +1,4 @@
-# Piscine_Php / day07 / ex02 : Fireproofing
+# Php_Piscine / day07 / ex02 : Fireproofing
 
 ## Description
 This is the parent class named Targaryen, which contains two defined methods to be vulnerable to fire. But if the child class override these method, that child class could be resistant to fire.
