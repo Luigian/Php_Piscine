@@ -4,7 +4,7 @@
 Create the request to display, from 'film' table, the title and summary of all movies containing 42 in their title or summary ordered from the shortest film to the longest.
 
 ## Installation
-`mysql db_lusanche < day05/base-student.sql > output.tab;` | add 'film' table to our database.
+`mysql db_lusanche < day05/base-student.sql > output.tab;` | add tables to database.
 
 `mysql` | connect to local MySQL server.
 
