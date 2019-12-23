@@ -23,6 +23,8 @@ PHP
 
 A funny mystery story led us through various exercises to discover a little bit more about php's libraries and helpfull functions to access local and external data.
 
+<img src="resources/images/another_world.png" width="200">
+
 ### Day 03
 PHP - MAMP
 
