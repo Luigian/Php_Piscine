@@ -6,4 +6,4 @@ The last day of the Php piscine was dedicated to learn the syntax and functions 
 
 <img src="../resources/images/balloon.png" width="300">
 <img src="../resources/images/calc.png" width="500">
-<img src="../resources/images/list.png" width="500">
+<img src="../resources/images/todo.png" width="500">
