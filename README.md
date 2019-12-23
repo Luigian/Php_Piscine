@@ -2,7 +2,7 @@
 
 # Piscine_Php - 42 School Two Weeks Web Boot Camp 
 
-## Summary of the Piscine
+## Summary
 
 ### Day 00
 HTML and CSS
