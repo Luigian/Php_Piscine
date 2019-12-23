@@ -1,4 +1,4 @@
-# Piscine_Php / day06 / ex01 : The Vertex Class
+# Php_Piscine / day06 / ex01 : The Vertex Class
 
 ## Description
 This class will now look at the representation of a point in space: the "vertex".
