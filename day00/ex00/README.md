@@ -1,4 +1,4 @@
-# Piscine_Php / day00 / ex00 : Basics or home
+# Php_Piscine / day00 / ex00 : Basics or home
 
 ## Description
 Creation of a basic web page following specific visual requisites, links, and special characters.
