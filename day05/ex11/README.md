@@ -4,7 +4,7 @@
 Create the request to display the last_name in uppercase in a ’NAME’ column, the first_name and the price of the users having a subscription higher than 42 euros. Order result by ascending last_name and by ascending first_name.
 
 ## Installation
-`mysql db_lusanche < day05/base-student.sql > output.tab;` | add 'user_card' table to our database.
+`mysql db_lusanche < day05/base-student.sql > output.tab;` | add tables to database.
 
 `mysql` | connect to local MySQL server.
 
