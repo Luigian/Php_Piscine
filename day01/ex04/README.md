@@ -1,4 +1,4 @@
-# Piscine_Php / day01 / ex04
+# Php_Piscine / day01 / ex04
 
 ## Description
 This program displays its command line arguments in the order received. The name of the program isn’t displayed.
