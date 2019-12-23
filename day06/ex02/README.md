@@ -1,4 +1,4 @@
-# Piscine_Php / day06 / ex02 : The Vector Class
+# Php_Piscine / day06 / ex02 : The Vector Class
 
 ## Description
 The vector class allow us to represent directions or movements of points, in other word: lines.
