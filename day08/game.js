@@ -1,32 +1,38 @@
-/*
-var ship = document.getElementById('uno');
-var button = document.getElementById('button1');
-button.addEventListener("click", ft_click);
 
-function ft_click()
+var b = document.querySelector("#button1");
+var f = document.querySelector("#f");
+var l = document.querySelector("#turnl");
+var a = document.querySelector("#adv");
+var r = document.querySelector("#turnr");
+var ship = document.querySelector("#uno");
+var s = document.querySelector("#f");
+l.addEventListener("click", ft_click_l);
+a.addEventListener("click", ft_click_a);
+r.addEventListener("click", ft_click_r);
+var rot = 90;
+f.style.opacity= "0";
+
+function ft_click_l()
 {
+	rot -= 90;
+	if (rot == 360)
+		rot = 0;
+	ship.style.transform = "rotate(" + rot + "deg)";
+	f.style.transform = "rotate(" + rot + "deg)";
+}
+
+function ft_click_a()
+{
+	ship.style.opacity= "0";
+	f.style.opacity= "100";
 	b.style.backgroundColor = "blue";
 }
-*/
-/*
-var b = document.querySelector("#button1");
-document.querySelector("#button1").addEventListener("click", ft_add);
 
-function ft_add()
+function ft_click_r()
 {
-	b.style.backgroundColor = "blue";
-}*/
-
-
-
-var b = document.querySelector("#button1");
-var c = document.querySelector("#uno");
-b.addEventListener("click", ft_click);
-
-function ft_click()
-{
-	b.style.backgroundColor = "blue";
-//	c.style.backgroundColor = "blue";
-	c.style.backgroundSize = "100%";
-	c.style.transform = "rotate(180deg)";
+	rot += 90;
+	if (rot == 0)
+		rot = 360;
+	ship.style.transform = "rotate(" + rot + "deg)";
+	f.style.transform = "rotate(" + rot + "deg)";
 }

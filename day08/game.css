@@ -30,16 +30,47 @@
 	height: 115px;
 	background-color: black;
 }
+.noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#turnl
+{
+	background-image: url("arrow_l.png");
+	background-size: 100%;
+	width: 35px;
+	height: 35px;
+	margin-left: 10%;
+	display: inline-block;
+}
+#adv
+{
+	background-image: url("arrow_a.png");
+	background-size: 100%;
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+}
+#turnr
+{
+	background-image: url("arrow_r.png");
+	background-size: 100%;
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+}
 #button1
 {
 	width: 50px;
 	height: 50px;
 	background-color: red;
-	background-position : center;
 	border-radius: 50%;
-	margin: 0 auto;
-	position: relative;
 	box-shadow: 0 1px 2px #fff, 0 -1px 1px #666, inset 0 -2px 1px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255,255,255,0.8);
+	display: inline-block;
 }
 #footer
 {
@@ -73,7 +104,7 @@ table, td
 	border: 1px solid skyblue;
 	border-collapse: collapse;
 }
-#uno
+#uno, #f
 {
 	background-image: url("ship1.png");
 	background-size: 80%;
