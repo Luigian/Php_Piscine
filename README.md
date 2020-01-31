@@ -1,8 +1,10 @@
 <img src="resources/images/php_banner.png" width="1200">
 
-# Php_Piscine - Web Boot Camp at 42 School 
+# Php_Piscine - Web Bootcamp at 42 School 
 
 ## Summary
+
+2 weeks immersive in JavaScript, CSS, HTML, PHP and SQL. Network and system administration.
 
 ### Day 00
 HTML and CSS
