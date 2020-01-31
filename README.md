@@ -87,7 +87,7 @@ Awesome Starships Battles II
 This is an ambitious project that aims to gather all the tools learned during this boot-camp. This second rush was about remasterizing the game created at day 08, and adding account management, users ranking, chat panel, simultaneously games, scripted games and other cool features alike. 
 
 ## Credits
-[*Luis Julian Sanchez Quiros*](https://www.linkedin.com/in/luis-juli%C3%A1n-s%C3%A1nchez-quir%C3%B3s-13bb3b189/)
+[*Luis Julian Sanchez Quiros*](https://www.linkedin.com/in/luis-sanchez-13bb3b189/)
 2019. Freemont, CA
 
 ## About 42 School
